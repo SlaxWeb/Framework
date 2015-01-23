@@ -1,0 +1,7 @@
+{
+    "require": {
+        "slaxweb/router": "dev-develop",
+        "slaxweb/view": "dev-develop"
+    },
+    "minimum-stability": "dev"
+}

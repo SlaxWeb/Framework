@@ -1,0 +1,5 @@
+**/.DS_Store
+**.swp
+**.directory
+vendor
+composer.lock
