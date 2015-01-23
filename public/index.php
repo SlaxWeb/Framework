@@ -17,6 +17,10 @@ define("APPPATH", FCPATH . "../{$appDir}/");
 define("PUBPATH", FCPATH . "../{$pubDir}/");
 // define VENPATH constant pointing to the Vendor directory
 define("VENPATH", FCPATH . "../{$venDir}/");
+// define TEMPLATEPATH constant pointing to the Templates directory
+define("TEMPLATEPATH", APPPATH . "/Template/View");
+// define TWIGCACHE constant pointing to the Twig Cache directory
+define("TWIGCACHE", APPPATH . "/Template/Cache");
 
 /**
  * Load the config
@@ -30,9 +34,7 @@ $loader = require_once FCPATH . "../vendor/autoload.php";
 // Add some stuff to the Autoloader
 $loader->add("Controller\\", APPPATH);
 $loader->add("Model\\", APPPATH);
-
-// Temporarily add Router here until it becomes a package
-$loader->add("SlaxWeb\\Router\\", VENPATH . "slaxweb/router");
+$loader->add("View\\", APPPATH);
 
 /**
  * Initiate the router
