@@ -1,5 +1,16 @@
 {
+    "name": "slaxweb/framework",
+    "description": "Lightweight 'Framework'. Basic as it gets",
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Tomaz Lovrec",
+            "email": "tomaz.lovrec@gmail.com"
+        }
+    ],
     "require": {
+		"php":	">=5.5.0",
         "slaxweb/router": "dev-develop",
         "slaxweb/view": "dev-develop"
     },
