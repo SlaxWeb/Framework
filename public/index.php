@@ -39,9 +39,21 @@ $loader->add("View\\", APPPATH);
 /**
  * Initiate the router
  */
+$uri = "";
+$method = "";
+// check if request is from CLI
+if (php_sapi_name() === "cli") {
+    array_shift($argv);
+    $uri = implode("/", $argv);
+    $method = "CLI";
+} else {
+    // normal WEB request
+    $uri = $_SERVER["REQUEST_URI"];
+    $method = $_SERVER["REQUEST_METHOD"];
+}
 $router = new \SlaxWeb\Router\Router([
-    "uri"       =>  $_SERVER["REQUEST_URI"],
-    "method"    =>  $_SERVER["REQUEST_METHOD"]
+    "uri"       =>  $uri,
+    "method"    =>  $method
 ]);
 // Load the routes and process them
 require_once(APPPATH . "config/routes.php");
