@@ -16,7 +16,7 @@ class Swf
      */
     protected $_router = null;
 
-    public function __construct(object $loader, \SlaxWeb\Router\Router $router)
+    public function __construct(\Composer\Autoload\ClassLoader $loader, \SlaxWeb\Router\Router $router)
     {
         $this->_loader = $loader;
         $this->_router = $router;
@@ -35,13 +35,13 @@ class Swf
     {
         require_once(APPPATH . "config/routes.php");
 
-        $route = $router->process();
+        $route = $this->_router->process();
 
-        if (is_object($route["action"]) && $route["action"] instanceof Closure) {
+        if (is_object($route["action"]) && $route["action"] instanceof \Closure) {
             call_user_func_array($route["action"], $route["params"]);
         } else {
-            $controller = self::setAlias("controller", "\\Controller\\{$route["action"][0]}");
-            $controller->{$route["action"][0]}(...$route["params"]);
+            $controller = Registry::setAlias("controller", "\\Controller\\{$route["action"][0]}");
+            $controller->{$route["action"][1]}(...$route["params"]);
         }
     }
 }

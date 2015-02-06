@@ -8,13 +8,13 @@ class Registry
      *
      * @var array
      */
-    protected $_dic = [];
+    protected static $_dic = [];
 
     public static function get($class)
     {
         if (isset(self::$_dic[$class]) === false) {
             $params = [];
-            if (func_num_rgs() > 1) {
+            if (func_num_args() > 1) {
                 $params = func_get_args();
                 $params = array_splice($params, 1);
             }
@@ -28,7 +28,7 @@ class Registry
     {
         if (isset(self::$_dic[$alias]) === false) {
             $params = [];
-            if (func_num_rgs() > 2) {
+            if (func_num_args() > 2) {
                 $params = func_get_args();
                 $params = array_splice($params, 2);
             }
