@@ -31,13 +31,10 @@ require_once APPPATH . "config/config.php";
  * Load the system Composer Autoloader
  */
 $loader = require_once FCPATH . "../vendor/autoload.php";
-// Add some stuff to the Autoloader
-$loader->add("Controller\\", APPPATH);
-$loader->add("Model\\", APPPATH);
-$loader->add("View\\", APPPATH);
+$loader->add("System\\", FCPATH . "../");
 
 /**
- * Initiate the router
+ * Parse the request
  */
 $uri = "";
 $method = "";
@@ -55,15 +52,13 @@ $router = new \SlaxWeb\Router\Router([
     "uri"       =>  $uri,
     "method"    =>  $method
 ]);
-// Load the routes and process them
-require_once(APPPATH . "config/routes.php");
-$route = $router->process();
 
-// Process the action
-if (is_object($route["action"]) && $route["action"] instanceof Closure) {
-    call_user_func_array($route["action"], $route["params"]);
-} else {
-    $class = "\\Controller\\{$route["action"][0]}";
-    $controller = new $class();
-    call_user_func_array([$controller, $route["action"][1]], $route["params"]);
-}
+/**
+ * Lets begin. Load and start the bootstraper
+ */
+$swf = new \System\Swf($loader, $router);
+// Add some stuff to the Autoloader
+$swf->configureAutoload();
+
+// Route the request
+$swf->routeRequest();
