@@ -1,7 +1,9 @@
 # Framework
 Install:
 ```
-composer create-project -s dev slaxweb/framework
+composer create-project -s slaxweb/framework
 ```
 
-It has only a router and a view library. Everything else is up to you.
+This is a "project" out of boredom. Nothing serious. I do NOT suggest using it in production. Feel free to play around with it though!
+
+Maybe...just *MAYBE*, some day, I will turn it into something more usable. ;)
