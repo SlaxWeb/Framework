@@ -15,6 +15,7 @@
         "slaxweb/router": "dev-develop",
         "slaxweb/view": "dev-develop"
     },
+    "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
             "dev-develop": "0.2.x-dev"
