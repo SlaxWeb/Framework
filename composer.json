@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-		"php":	">=5.6.0",
+        "php":	">=5.6.0",
         "slaxweb/bootstrap": "~0.1",
         "slaxweb/router": "~0.1",
         "slaxweb/view": "~0.1"
@@ -19,5 +19,8 @@
         "branch-alias": {
             "dev-develop": "0.2.x-dev"
         }
+    },
+    "scripts": {
+        "post-create-project-cmd": ["vendor/slaxweb/bootstrap/SlaxWeb/Bootstrap/install.sh"]
     }
 }
