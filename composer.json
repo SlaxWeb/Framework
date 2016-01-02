@@ -2,7 +2,7 @@
     "name": "slaxweb/framework",
     "description": "SlaxWeb Lightweight 'Framework'. Basic as it gets",
     "license": "MIT",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "authors": [
         {
             "name": "Tomaz Lovrec",
@@ -15,10 +15,9 @@
         "slaxweb/router": "dev-develop",
         "slaxweb/view": "dev-develop"
     },
-    "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
-            "dev-develop": "0.2.x-dev"
+            "dev-develop": "0.3.x-dev"
         }
     },
     "scripts": {
