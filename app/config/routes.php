@@ -1,6 +1,6 @@
 <?php
-$router->get()->name("/")->action(function() {
+$this->_router->get()->name("/")->action(function() {
     echo "Default route";
-})->store();
+});
 
-$router->name("hello")->action(["Hello", "world"])->store();
+$this->_router->name("hello")->action(["\\Controller\\Hello", "world"]);
