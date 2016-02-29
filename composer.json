@@ -1,8 +1,8 @@
 {
     "name": "slaxweb/framework",
-    "description": "SlaxWeb Lightweight 'Framework'. Basic as it gets",
+    "description": "SlaxWeb/Framework, a modular Framework where you decide what you use, and how you use it",
     "license": "MIT",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "authors": [
         {
             "name": "Tomaz Lovrec",
@@ -10,17 +10,25 @@
         }
     ],
     "require": {
-        "php":  ">=5.6.0",
-        "slaxweb/bootstrap": "~0.2",
-        "slaxweb/router": "~0.2",
-        "slaxweb/view": "~0.2"
+        "php":  ">=7.0.0",
+        "slaxweb/config": "0.1.*@dev",
+        "slaxweb/logger": "0.2.*@dev",
+        "slaxweb/hooks": "0.4.*@dev"
     },
     "extra": {
         "branch-alias": {
             "dev-develop": "0.3.x-dev"
         }
     },
-    "scripts": {
-        "post-create-project-cmd": ["vendor/slaxweb/bootstrap/SlaxWeb/Bootstrap/install.sh"]
-    }
+    "autoload": {
+        "psr-4": {
+            "App\\Controller\\": "app/Controller/",
+            "App\\Hook\\": "app/Hook/",
+            "App\\Library\\": "app/Library/",
+            "App\\Model\\": "app/Model/",
+            "App\\Provider\\": "app/Provider/",
+            "App\\View\\": "app/View/"
+        }
+    },
+    "minimum-stability": "dev"
 }
