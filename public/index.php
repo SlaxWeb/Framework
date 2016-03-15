@@ -35,6 +35,9 @@ $app["configResourceLocation"] = "{$app["appDir"]}Config/";
 // load logger config
 $app["config.service"]->load("logger.php");
 
+// register routes provider
+$app->register(new App\Provider\Routes);
+
 // initialize the app
 $app->init(
     $app["config.service"],
