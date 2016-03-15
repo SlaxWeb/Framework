@@ -32,6 +32,9 @@ $app->register(new SlaxWeb\Router\Service\Provider);
 $app["configHandler"] = SlaxWeb\Config\Container::PHP_CONFIG_HANDLER;
 $app["configResourceLocation"] = "{$app["appDir"]}Config/";
 
+// load logger config
+$app["config.service"]->load("logger.php");
+
 // initialize the app
 $app->init(
     $app["config.service"],
