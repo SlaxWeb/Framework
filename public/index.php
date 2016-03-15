@@ -15,12 +15,14 @@
 // require the composer autoloader
 require_once __DIR__ . "/../vendor/autoload.php";
 
-// load the application class
-$app = new SlaxWeb\Bootstrap\Application;
+// are we running on windows?
+$dirSep = strtoupper(substr(PHP_OS, 0, 3)) === "WIN" ? "\\" : "/";
 
-// set some application properties
-$app["pubDir"] = __DIR__ . "/";
-$app["appDir"] = "{$app["pubDir"]}../app/";
+// load the application class
+$app = new SlaxWeb\Bootstrap\Application(
+    __DIR__,
+    __DIR__ . "{$dirSep}..{$dirSep}app"
+);
 
 // register providers
 $app->register(new SlaxWeb\Hooks\Service\Provider);
@@ -28,23 +30,8 @@ $app->register(new SlaxWeb\Config\Service\Provider);
 $app->register(new SlaxWeb\Logger\Service\Provider);
 $app->register(new SlaxWeb\Router\Service\Provider);
 
-// set config component required properties
-$app["configHandler"] = SlaxWeb\Config\Container::PHP_CONFIG_HANDLER;
-$app["configResourceLocation"] = "{$app["appDir"]}Config/";
-
-// load logger config
-$app["config.service"]->load("logger.php");
-
-// register routes provider
-$app->register(new App\Provider\Routes);
-
 // initialize the app
-$app->init(
-    $app["config.service"],
-    $app["routeDispatcher.service"],
-    $app["hooks.service"],
-    $app["logger.service"]
-);
+$app->init();
 
 // start application
 $app->run($app["request.service"], $app["response.service"]);
