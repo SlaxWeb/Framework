@@ -13,7 +13,9 @@
         "php":  ">=7.0.0",
         "slaxweb/config": "0.1.*@dev",
         "slaxweb/logger": "0.2.*@dev",
-        "slaxweb/hooks": "0.4.*@dev"
+        "slaxweb/hooks": "0.4.*@dev",
+        "slaxweb/router": "0.3.*@dev",
+        "slaxweb/bootstrap": "0.3.*@dev"
     },
     "extra": {
         "branch-alias": {
