@@ -14,7 +14,7 @@
 /*
  * Should the Service Providers of the application be registered?
  */
-$configuration["application.provider.register"] = true;
+$configuration["app.provider.register"] = true;
 
 /*
  * Service Providers List
@@ -23,6 +23,21 @@ $configuration["application.provider.register"] = true;
  * any other way. The SlaxWeb Framework will not attempt to load those classes,
  * it only registers them against the Dependency Injection Container!
  */
-$configuration["application.providerList"] = [
+$configuration["app.providerList"] = [
     "\\App\\Provider\\Routes" // remove only if you have routes elsewhere
+];
+
+/*
+ * Should the Hook Definitions be loaded?
+ */
+$configuration["app.hooks.load"] = true;
+
+/**
+ * Hook Definitions List
+ *
+ * List of Hook Definition Classes. Those need to be autoloaded or loaded in
+ * another way. The SlaxWeb Framework will not attempt to load those classes.
+ */
+$configuration["app.hooksList"] = [
+    //"\\App\\Hooks\\Sample" // example hook definitions class, safe to remove
 ];
