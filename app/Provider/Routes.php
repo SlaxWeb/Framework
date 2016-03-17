@@ -26,7 +26,7 @@ class Routes implements \Pimple\ServiceProviderInterface
             "",
             Route::METHOD_GET,
             function (Request $request, Response $response, $app) {
-                $response->setContent(
+                $response->addContent(
                     "Hello, World!<br />My Base URL is: "
                     . "{$request->getSchemeAndHttpHost()}"
                     . "{$request->getBasePath()}"

@@ -39,5 +39,5 @@ $configuration["app.hooks.load"] = true;
  * another way. The SlaxWeb Framework will not attempt to load those classes.
  */
 $configuration["app.hooksList"] = [
-    //"\\App\\Hooks\\Sample" // example hook definitions class, safe to remove
+    "\\App\\Hook\\Sample" // example hook definitions class, safe to remove
 ];
