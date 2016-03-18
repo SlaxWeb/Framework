@@ -15,13 +15,10 @@
 // require the composer autoloader
 require_once __DIR__ . "/../vendor/autoload.php";
 
-// are we running on windows?
-$dirSep = strtoupper(substr(PHP_OS, 0, 3)) === "WIN" ? "\\" : "/";
-
 // load the application class
 $app = new SlaxWeb\Bootstrap\Application(
     __DIR__,
-    __DIR__ . "{$dirSep}..{$dirSep}app"
+    __DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "app"
 );
 
 // register providers
