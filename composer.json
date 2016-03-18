@@ -29,6 +29,7 @@
             "App\\Library\\": "app/Library/",
             "App\\Model\\": "app/Model/",
             "App\\Provider\\": "app/Provider/",
+            "App\\Routes\\": "app/Routes",
             "App\\View\\": "app/View/"
         }
     },

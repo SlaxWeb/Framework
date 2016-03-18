@@ -11,33 +11,47 @@
  * @link      https://github.com/slaxweb/
  * @version   0.3
  */
-/*
- * Should the Service Providers of the application be registered?
- */
-$configuration["app.provider.register"] = true;
-
-/*
- * Service Providers List
+/**
+ * Routes settings
  *
- * List of Service Provider Classes. Those need to be autoloaded or loaded in
- * any other way. The SlaxWeb Framework will not attempt to load those classes,
- * it only registers them against the Dependency Injection Container!
+ * routes.load: Should the Application load the Route Collections?
+ *
+ * routesList: List of Route Collection Classes. Those need to be autoloaded
+ *             or loaded in any other way. The SlaxWeb Framework will not
+ *             attempt to load those classes, it only registers them against
+ *             the Dependency Injection Container!
  */
-$configuration["app.providerList"] = [
-    "\\App\\Provider\\Routes" // remove only if you have routes elsewhere
+$configuration["app.routes.load"] = true;
+$configuration["app.routesList"] = [
+    \App\Routes\DefaultCollection::class // remove only if you have routes elsewhere!
 ];
 
 /*
- * Should the Hook Definitions be loaded?
+ * Provider settings
+ *
+ * provider.register: Should the Service Providers of the application be
+ *                    registered?
+ *
+ * providerList: List of Service Provider Classes. Those need to be autoloaded
+ *               or loaded in any other way. The SlaxWeb Framework will not
+ *               attempt to load those classes, it only registers them against
+ *               the Dependency Injection Container!
+ */
+$configuration["app.provider.register"] = true;
+$configuration["app.providerList"] = [
+    \App\Provider\Sample::class // remove only if you have routes elsewhere
+];
+
+/*
+ * Hooks settings
+ *
+ * hooks.load: Should the Hook Definitions be loaded?
+ *
+ * hooksList: List of Hook Definition Classes. Those need to be autoloaded or
+ *            loaded in another way. The SlaxWeb Framework will not attempt to
+ *            load those classes.
  */
 $configuration["app.hooks.load"] = true;
-
-/**
- * Hook Definitions List
- *
- * List of Hook Definition Classes. Those need to be autoloaded or loaded in
- * another way. The SlaxWeb Framework will not attempt to load those classes.
- */
 $configuration["app.hooksList"] = [
-    "\\App\\Hook\\Sample" // example hook definitions class, safe to remove
+    \App\Hook\Sample::class // example hook definitions class, safe to remove
 ];
