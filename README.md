@@ -17,15 +17,10 @@ will be ample warning of it, and also ways to quickly work around those breaks.
 Non the less, it is still not encouraged to use Framework in a production
 environment, as it has not yet been fully tested.
 
-## Install
+## Usage and Installation
 
-If you wish to try out and install the Framework, you can do so by using
-composer. Execute this simple command:
-```
-composer create-project -s dev slaxweb/framework framework dev-develop
-```
-
-There is no usage documentation available yet, but will be in the near future.
+For help on installing and usage, please refer to the
+[Getting Started](wiki/Getting-Started) Guide.
 
 ## Contributing
 
