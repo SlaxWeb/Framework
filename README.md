@@ -20,7 +20,7 @@ environment, as it has not yet been fully tested.
 ## Usage and Installation
 
 For help on installing and usage, please refer to the
-[Getting Started](wiki/Getting-Started) Guide.
+[Getting Started](/SlaxWeb/Framework/wiki/Getting-Started) Guide.
 
 ## Contributing
 
