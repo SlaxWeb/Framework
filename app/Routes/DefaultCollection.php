@@ -39,11 +39,11 @@ class DefaultCollection extends \SlaxWeb\Router\Service\RouteCollection
                 Response $response,
                 Application $app
             ) {
-                $response->addContent(
-                    "Hello, World!<br />My Base URL is: "
-                    . "{$request->getSchemeAndHttpHost()}"
-                    . "{$request->getBasePath()}"
-                );
+                $content = <<<EOC
+Hello, World!<br />
+My Base URL is: {$request->getSchemeAndHttpHost()}{$request->getBasePath()}
+EOC;
+                $response->addContent($content);
             }
         ];
     }
