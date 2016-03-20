@@ -21,8 +21,8 @@
  *             attempt to load those classes, it only registers them against
  *             the Dependency Injection Container!
  */
-$configuration["app.routes.load"] = true;
-$configuration["app.routesList"] = [
+$configuration["routes.load"] = true;
+$configuration["routesList"] = [
     \App\Routes\DefaultCollection::class // remove only if you have routes elsewhere!
 ];
 
@@ -37,8 +37,8 @@ $configuration["app.routesList"] = [
  *               attempt to load those classes, it only registers them against
  *               the Dependency Injection Container!
  */
-$configuration["app.provider.register"] = true;
-$configuration["app.providerList"] = [
+$configuration["provider.register"] = true;
+$configuration["providerList"] = [
     \App\Provider\Sample::class // remove only if you have routes elsewhere
 ];
 
@@ -51,7 +51,7 @@ $configuration["app.providerList"] = [
  *            loaded in another way. The SlaxWeb Framework will not attempt to
  *            load those classes.
  */
-$configuration["app.hooks.load"] = true;
-$configuration["app.hooksList"] = [
+$configuration["hooks.load"] = true;
+$configuration["hooksList"] = [
     \App\Hook\Sample::class // example hook definitions class, safe to remove
 ];

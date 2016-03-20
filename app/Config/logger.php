@@ -19,7 +19,7 @@ use SlaxWeb\Logger\Helper as Log;
  *
  * This name will be attached to all log messages.
  */
-$configuration["logger.name"] = "SlaxWebApp";
+$configuration["name"] = "SlaxWebApp";
 
 /*
  * Type of logger
@@ -28,7 +28,7 @@ $configuration["logger.name"] = "SlaxWebApp";
  * Available types(constant - description - Monolog Handler):
  * - Log::L_TYPE_FILE - file logger - StreamHandler
  */
-$configuration["logger.loggerType"] = Log::L_TYPE_FILE;
+$configuration["loggerType"] = Log::L_TYPE_FILE;
 
 /*
  * Additional logger arguments
@@ -36,7 +36,7 @@ $configuration["logger.loggerType"] = Log::L_TYPE_FILE;
  * The arguments found in the bellow array are passed to the Logger Handler of
  * the Monolog component. Please refer to the Monolog documentation.
  */
-$configuration["logger.handlerArgs.{$configuration["logger.loggerType"]}"] = [
+$configuration["handlerArgs.{$configuration["loggerType"]}"] = [
     __DIR__ . "/../Logs/Log-" . date("Ymd") . ".log", // log path and filename
     Logger::DEBUG // log level
 ];
