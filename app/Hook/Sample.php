@@ -28,16 +28,16 @@ class Sample extends \SlaxWeb\Hooks\Service\Definition
      */
     public function define()
     {
-        $hook = $this->_container["newHook.factory"];
+        $hook = $this->_app["newHook.factory"];
         $hook->create(
             "application.init.after",
             function() {
-                $this->_container["response.service"]->addContent(
+                $this->_app["response.service"]->addContent(
                     "Hook Executed<br />"
                 );
             }
         );
 
-        $this->_container["hooks.service"]->addHook($hook);
+        $this->_app["hooks.service"]->addHook($hook);
     }
 }
