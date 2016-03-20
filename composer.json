@@ -15,7 +15,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-develop": "0.4.*@dev"
+            "dev-develop": "0.4.x-dev"
         }
     },
     "autoload": {
