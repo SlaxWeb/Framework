@@ -11,11 +11,11 @@
     ],
     "require": {
         "php":  ">=7.0.0",
-        "slaxweb/bootstrap": "0.3.*@dev"
+        "slaxweb/bootstrap": "~0.3"
     },
     "extra": {
         "branch-alias": {
-            "dev-develop": "0.3.x-dev"
+            "dev-develop": "0.4.*@dev"
         }
     },
     "autoload": {
@@ -28,6 +28,5 @@
             "App\\Routes\\": "app/Routes",
             "App\\View\\": "app/View/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }

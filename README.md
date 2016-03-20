@@ -17,6 +17,18 @@ will be ample warning of it, and also ways to quickly work around those breaks.
 Non the less, it is still not encouraged to use Framework in a production
 environment, as it has not yet been fully tested.
 
+## Components Build Status
+
+Bellow you can find a table of statuses of all SlaxWeb components that are
+currently in use by this release, or the upcoming release:
+| Component | Build Status |
+| --- | --- |
+| [Bootstrap](https://github.com/SlaxWeb/Bootstrap) | [![Build Status](https://travis-ci.org/SlaxWeb/Bootstrap.svg?branch=0.3.0)](https://travis-ci.org/SlaxWeb/Bootstrap) |
+| [Config](https://github.com/SlaxWeb/Bootstrap) | [![Build Status](https://travis-ci.org/SlaxWeb/Config.svg?branch=0.1.0)](https://travis-ci.org/SlaxWeb/Config) |
+| [Router](https://github.com/SlaxWeb/Bootstrap) | [![Build Status](https://travis-ci.org/SlaxWeb/Router.svg?branch=0.3.0)](https://travis-ci.org/SlaxWeb/Router) |
+| [Logger](https://github.com/SlaxWeb/Bootstrap) | No Status |
+| [Hooks](https://github.com/SlaxWeb/Bootstrap) | [![Build Status](https://travis-ci.org/SlaxWeb/Hooks.svg?branch=0.4.0)](https://travis-ci.org/SlaxWeb/Hooks) |
+
 ## Usage and Installation
 
 For help on installing and usage, please refer to the
