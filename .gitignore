@@ -1,7 +1,6 @@
 **/.DS_Store
 **.swp
 **.directory
-vendor
-composer.lock
-app/Logs/
+vendor/
+app/Logs/*.log
 .tags
