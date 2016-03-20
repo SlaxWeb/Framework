@@ -2,7 +2,7 @@
     "name": "slaxweb/framework",
     "description": "SlaxWeb/Framework, a modular Framework where you decide what you use, and how you use it",
     "license": "MIT",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "authors": [
         {
             "name": "Tomaz Lovrec",
