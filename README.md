@@ -21,6 +21,7 @@ environment, as it has not yet been fully tested.
 
 Bellow you can find a table of statuses of all SlaxWeb components that are
 currently in use by this release, or the upcoming release:
+
 | Component | Build Status |
 | --- | --- |
 | [Bootstrap](https://github.com/SlaxWeb/Bootstrap) | [![Build Status](https://travis-ci.org/SlaxWeb/Bootstrap.svg?branch=0.3.0)](https://travis-ci.org/SlaxWeb/Bootstrap) |
