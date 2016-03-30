@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cfe50f0a7b83d05715cdacfbf8c49df8",
-    "content-hash": "c82d682985f6cf33ad7297cfe103ba89",
+    "hash": "2124997a62716490b2962ee3cb94f8da",
+    "content-hash": "02c1207844cff5fb919b86fda853c372",
     "packages": [
         {
             "name": "monolog/monolog",
-            "version": "1.18.1",
+            "version": "1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45"
+                "reference": "dec4e574c2efcbbd4b6441ef64334daa79edf8f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
-                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/dec4e574c2efcbbd4b6441ef64334daa79edf8f2",
+                "reference": "dec4e574c2efcbbd4b6441ef64334daa79edf8f2",
                 "shasum": ""
             },
             "require": {
@@ -83,7 +83,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-03-13 16:08:35"
+            "time": "2016-03-26 08:27:31"
         },
         {
             "name": "pimple/pimple",
@@ -133,22 +133,30 @@
         },
         {
             "name": "psr/log",
-            "version": "1.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+                "reference": "d8e60a5619fff77f9669da8997697443ef1a1d7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d8e60a5619fff77f9669da8997697443ef1a1d7e",
+                "reference": "d8e60a5619fff77f9669da8997697443ef1a1d7e",
                 "shasum": ""
             },
+            "require": {
+                "php": ">=5.3.0"
+            },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
             "autoload": {
-                "psr-0": {
-                    "Psr\\Log\\": ""
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -162,34 +170,35 @@
                 }
             ],
             "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
             "keywords": [
                 "log",
                 "psr",
                 "psr-3"
             ],
-            "time": "2012-12-21 11:40:51"
+            "time": "2016-01-06 21:40:42"
         },
         {
             "name": "slaxweb/bootstrap",
-            "version": "0.3.1",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Bootstrap.git",
-                "reference": "36b86cce55d66fc24471ca9b307f347e0e454d2d"
+                "reference": "ea328cc961e031c23343af2d127ae0248cd57262"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/36b86cce55d66fc24471ca9b307f347e0e454d2d",
-                "reference": "36b86cce55d66fc24471ca9b307f347e0e454d2d",
+                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/ea328cc961e031c23343af2d127ae0248cd57262",
+                "reference": "ea328cc961e031c23343af2d127ae0248cd57262",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0",
                 "pimple/pimple": "3.0.2",
-                "slaxweb/config": "0.1.1",
-                "slaxweb/hooks": "0.4.0",
-                "slaxweb/logger": "0.2.0",
-                "slaxweb/router": "0.3.0"
+                "slaxweb/config": "0.2.*@dev",
+                "slaxweb/hooks": "0.5.*@dev",
+                "slaxweb/logger": "0.3.*@dev",
+                "slaxweb/router": "0.4.*@dev"
             },
             "require-dev": {
                 "behat/gherkin": "~4.4",
@@ -220,20 +229,20 @@
                 }
             ],
             "description": "Bootstrap for SlaxWeb Framework",
-            "time": "2016-03-20 18:09:47"
+            "time": "2016-03-30 14:34:37"
         },
         {
             "name": "slaxweb/config",
-            "version": "0.1.1",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Config.git",
-                "reference": "6f563e5f56e46e3e4d2ab1337796f4655f9cd1af"
+                "reference": "39c2d074cf240ce019394c7582e011d5bbc2247b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Config/zipball/6f563e5f56e46e3e4d2ab1337796f4655f9cd1af",
-                "reference": "6f563e5f56e46e3e4d2ab1337796f4655f9cd1af",
+                "url": "https://api.github.com/repos/SlaxWeb/Config/zipball/39c2d074cf240ce019394c7582e011d5bbc2247b",
+                "reference": "39c2d074cf240ce019394c7582e011d5bbc2247b",
                 "shasum": ""
             },
             "require": {
@@ -271,24 +280,111 @@
                 }
             ],
             "description": "Config component for the SlaxWeb Framework",
-            "time": "2016-03-20 18:41:41"
+            "time": "2016-03-26 10:28:36"
         },
         {
-            "name": "slaxweb/hooks",
-            "version": "0.4.0",
+            "name": "slaxweb/exception",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "https://github.com/SlaxWeb/Hooks.git",
-                "reference": "79d8dbb70dce35c23e2004fd328deb50ed31773e"
+                "url": "https://github.com/SlaxWeb/Exception.git",
+                "reference": "1175a665203cd1a30a63d3c120c2ca0136d6277c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Hooks/zipball/79d8dbb70dce35c23e2004fd328deb50ed31773e",
-                "reference": "79d8dbb70dce35c23e2004fd328deb50ed31773e",
+                "url": "https://api.github.com/repos/SlaxWeb/Exception/zipball/1175a665203cd1a30a63d3c120c2ca0136d6277c",
+                "reference": "1175a665203cd1a30a63d3c120c2ca0136d6277c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "suggest": {
+                "pimple/pimple": "Make use of available providers for Pimple version 3.0.x"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SlaxWeb\\Exception\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tomaz Lovrec",
+                    "email": "tomaz.lovrec@gmail.com"
+                }
+            ],
+            "description": "Exception collection for SlaxWeb Framework",
+            "time": "2016-03-26 12:11:01"
+        },
+        {
+            "name": "slaxweb/getset",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SlaxWeb/GetSet.git",
+                "reference": "84b7671280c41dd2e0951e744f3176c13fb6c3c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SlaxWeb/GetSet/zipball/84b7671280c41dd2e0951e744f3176c13fb6c3c0",
+                "reference": "84b7671280c41dd2e0951e744f3176c13fb6c3c0",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0",
+                "slaxweb/exception": "0.1.*@dev"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SlaxWeb\\GetSet\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tomaz Lovrec",
+                    "email": "tomaz.lovrec@gmail.com"
+                }
+            ],
+            "description": "Getter and Setter traits for SlaxWeb Framework",
+            "time": "2016-03-28 09:34:00"
+        },
+        {
+            "name": "slaxweb/hooks",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SlaxWeb/Hooks.git",
+                "reference": "37e41781b9dbbd00505bdf4020fabb80205e3b59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SlaxWeb/Hooks/zipball/37e41781b9dbbd00505bdf4020fabb80205e3b59",
+                "reference": "37e41781b9dbbd00505bdf4020fabb80205e3b59",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "slaxweb/getset": "0.1.*@dev",
                 "slaxweb/logger": "~0.2"
             },
             "require-dev": {
@@ -321,29 +417,29 @@
                 }
             ],
             "description": "Hooks library for SlaxWeb Framework",
-            "time": "2016-03-20 14:54:03"
+            "time": "2016-03-28 09:42:32"
         },
         {
             "name": "slaxweb/logger",
-            "version": "0.2.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Logger.git",
-                "reference": "8b852681f36dcba8f663d7d2ac05aa938f281053"
+                "reference": "1fcd06f677163c65f126bc1310ce5483d8173733"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Logger/zipball/8b852681f36dcba8f663d7d2ac05aa938f281053",
-                "reference": "8b852681f36dcba8f663d7d2ac05aa938f281053",
+                "url": "https://api.github.com/repos/SlaxWeb/Logger/zipball/1fcd06f677163c65f126bc1310ce5483d8173733",
+                "reference": "1fcd06f677163c65f126bc1310ce5483d8173733",
                 "shasum": ""
             },
             "require": {
                 "monolog/monolog": "~1.17",
-                "php": ">=7.0.0",
-                "slaxweb/config": "~0.1"
+                "php": ">=7.0.0"
             },
             "suggest": {
-                "pimple/pimple": "Make use of available providers for Pimple version 3.0.x"
+                "pimple/pimple": "Make use of available providers for Pimple version 3.0.x",
+                "slaxweb/config": "If you want to use the Factory or the Service Provider,  Config@0.2.x component is required."
             },
             "type": "library",
             "extra": {
@@ -367,27 +463,28 @@
                 }
             ],
             "description": "Logger component for SlaxWeb Framework",
-            "time": "2016-03-20 08:35:41"
+            "time": "2016-03-30 14:17:30"
         },
         {
             "name": "slaxweb/router",
-            "version": "0.3.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Router.git",
-                "reference": "47bd1d8c96edd51c04bf5dca10cd1f6195967a10"
+                "reference": "e3d731019374c91b04cf0eb015c56830c44520b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/47bd1d8c96edd51c04bf5dca10cd1f6195967a10",
-                "reference": "47bd1d8c96edd51c04bf5dca10cd1f6195967a10",
+                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/e3d731019374c91b04cf0eb015c56830c44520b3",
+                "reference": "e3d731019374c91b04cf0eb015c56830c44520b3",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0",
-                "slaxweb/config": "~0.1",
-                "slaxweb/hooks": "~0.4",
-                "slaxweb/logger": "~0.2",
+                "slaxweb/config": "0.2.*@dev",
+                "slaxweb/getset": "0.1.*@dev",
+                "slaxweb/hooks": "0.5.*@dev",
+                "slaxweb/logger": "0.3.*@dev",
                 "symfony/http-foundation": "~3.0"
             },
             "require-dev": {
@@ -421,24 +518,25 @@
                 }
             ],
             "description": "Router component for the SlaxWeb/Framework",
-            "time": "2016-03-20 15:03:46"
+            "time": "2016-03-28 09:46:18"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v3.0.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "52065702c71743c05d415a8facfcad6d4257e8d7"
+                "reference": "dfd890574a4421ec1b64dc18ec4022b348cd200a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/52065702c71743c05d415a8facfcad6d4257e8d7",
-                "reference": "52065702c71743c05d415a8facfcad6d4257e8d7",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/dfd890574a4421ec1b64dc18ec4022b348cd200a",
+                "reference": "dfd890574a4421ec1b64dc18ec4022b348cd200a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.9"
+                "php": ">=5.5.9",
+                "symfony/polyfill-mbstring": "~1.1"
             },
             "require-dev": {
                 "symfony/expression-language": "~2.8|~3.0"
@@ -446,7 +544,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -473,13 +571,74 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-02-28 16:24:34"
+            "time": "2016-03-27 16:15:51"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "1289d16209491b584839022f29257ad859b8532d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/1289d16209491b584839022f29257ad859b8532d",
+                "reference": "1289d16209491b584839022f29257ad859b8532d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2016-01-20 09:13:37"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "slaxweb/bootstrap": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

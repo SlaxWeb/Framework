@@ -15,28 +15,46 @@ use Monolog\Logger;
 use SlaxWeb\Logger\Helper as Log;
 
 /*
- * Name of the logger
+ * Default logger for the application
  *
- * This name will be attached to all log messages.
+ * Suggested you put the name of your application here.
  */
-$configuration["name"] = "SlaxWebApp";
+$configuration["defaultLogger"] = "SlaxWebApp";
 
 /*
- * Type of logger
+ * Settings for all available loggers
  *
- * Defines the Monolog Handler that will be used for logging messages.
- * Available types(constant - description - Monolog Handler):
- * - Log::L_TYPE_FILE - file logger - StreamHandler
- */
-$configuration["loggerType"] = Log::L_TYPE_FILE;
-
-/*
- * Additional logger arguments
+ * SlaxWeb Framework provides multiple loggers, one for your app(which name you must change here as well if you
+ * changed it above), one for the system, and one for the Slaxer CLI tool.
  *
- * The arguments found in the bellow array are passed to the Logger Handler of
- * the Monolog component. Please refer to the Monolog documentation.
+ * The structure is:
+ * Logger Name =>
+ *      Logger Handler Type =>
+ *          Logger Handler Input parameters
+ *
+ * Available types(constant = Monolog Handler - description):
+ * - Log::L_TYPE_FILE = StreamHandler - file logger
+ *
+ * Logger Handler Input parameters are passed to the Logger Handler of * the Monolog component. Please refer
+ * to the Monolog documentation for further information what each logger handler requires.
  */
-$configuration["handlerArgs.{$configuration["loggerType"]}"] = [
-    __DIR__ . "/../Logs/Log-" . date("Ymd") . ".log", // log path and filename
-    Logger::DEBUG // log level
+$configuration["loggerSettings"] = [
+    "SlaxWebApp"    =>  [
+        Log::L_TYPE_FILE    =>  [
+            __DIR__ . "/../Logs/Log-" . date("Ymd") . ".log", // log path and filename
+            Logger::DEBUG // log level
+        ]
+    ],
+    "System"    =>  [
+        Log::L_TYPE_FILE    =>  [
+            __DIR__ . "/../Logs/Log-" . date("Ymd") . ".log", // log path and filename
+            Logger::DEBUG // log level
+        ]
+    ]
+    "Slaxer"    =>  [
+        Log::L_TYPE_FILE    =>  [
+            __DIR__ . "/../Logs/Log-" . date("Ymd") . ".log", // log path and filename
+            Logger::DEBUG // log level
+        ]
+    ]
 ];
