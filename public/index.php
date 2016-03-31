@@ -12,26 +12,8 @@
  * @link      https://github.com/slaxweb/
  * @version   0.3
  */
-// require the composer autoloader
-require_once __DIR__ . "/../vendor/autoload.php";
-
-// load the application class
-$app = new SlaxWeb\Bootstrap\Application(
-    __DIR__,
-    __DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "app"
-);
-
-// register providers
-$app->register(new SlaxWeb\Hooks\Service\Provider);
-$app->register(new SlaxWeb\Config\Service\Provider);
-$app->register(new SlaxWeb\Logger\Service\Provider);
-$app->register(new SlaxWeb\Router\Service\Provider);
-
-// initialize the app
-$app->init();
-
-// start application
-$app->run($app["request.service"], $app["response.service"]);
+// get the app instance
+$app = require_once "../bootstrap/framework.php";
 
 // print the output
 $app["response.service"]->send();

@@ -41,19 +41,19 @@ $configuration["defaultLogger"] = "SlaxWebApp";
 $configuration["loggerSettings"] = [
     "SlaxWebApp"    =>  [
         Log::L_TYPE_FILE    =>  [
-            __DIR__ . "/../Logs/Log-" . date("Ymd") . ".log", // log path and filename
+            __DIR__ . "/../Logs/App-" . date("Ymd") . ".log", // log path and filename
             Logger::DEBUG // log level
         ]
     ],
     "System"    =>  [
         Log::L_TYPE_FILE    =>  [
-            __DIR__ . "/../Logs/Log-" . date("Ymd") . ".log", // log path and filename
+            __DIR__ . "/../Logs/System-" . date("Ymd") . ".log", // log path and filename
             Logger::DEBUG // log level
         ]
-    ]
+    ],
     "Slaxer"    =>  [
         Log::L_TYPE_FILE    =>  [
-            __DIR__ . "/../Logs/Log-" . date("Ymd") . ".log", // log path and filename
+            __DIR__ . "/../Logs/Slaxer-" . date("Ymd") . ".log", // log path and filename
             Logger::DEBUG // log level
         ]
     ]
