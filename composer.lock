@@ -471,12 +471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Router.git",
-                "reference": "e3d731019374c91b04cf0eb015c56830c44520b3"
+                "reference": "5e3fa951f93f4805d2ca90936953578136b98bb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/e3d731019374c91b04cf0eb015c56830c44520b3",
-                "reference": "e3d731019374c91b04cf0eb015c56830c44520b3",
+                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/5e3fa951f93f4805d2ca90936953578136b98bb5",
+                "reference": "5e3fa951f93f4805d2ca90936953578136b98bb5",
                 "shasum": ""
             },
             "require": {
@@ -518,7 +518,7 @@
                 }
             ],
             "description": "Router component for the SlaxWeb/Framework",
-            "time": "2016-03-28 09:46:18"
+            "time": "2016-03-30 14:41:44"
         },
         {
             "name": "symfony/http-foundation",
