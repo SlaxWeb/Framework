@@ -184,12 +184,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Bootstrap.git",
-                "reference": "ea328cc961e031c23343af2d127ae0248cd57262"
+                "reference": "5210c9dd52e63236e3ec66ac308cb3a3577f9342"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/ea328cc961e031c23343af2d127ae0248cd57262",
-                "reference": "ea328cc961e031c23343af2d127ae0248cd57262",
+                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/5210c9dd52e63236e3ec66ac308cb3a3577f9342",
+                "reference": "5210c9dd52e63236e3ec66ac308cb3a3577f9342",
                 "shasum": ""
             },
             "require": {
@@ -229,7 +229,7 @@
                 }
             ],
             "description": "Bootstrap for SlaxWeb Framework",
-            "time": "2016-03-30 14:34:37"
+            "time": "2016-03-31 14:29:14"
         },
         {
             "name": "slaxweb/config",
@@ -237,12 +237,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Config.git",
-                "reference": "39c2d074cf240ce019394c7582e011d5bbc2247b"
+                "reference": "a3608b9548f67bba513dabd9fa50b0fdf71a2562"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Config/zipball/39c2d074cf240ce019394c7582e011d5bbc2247b",
-                "reference": "39c2d074cf240ce019394c7582e011d5bbc2247b",
+                "url": "https://api.github.com/repos/SlaxWeb/Config/zipball/a3608b9548f67bba513dabd9fa50b0fdf71a2562",
+                "reference": "a3608b9548f67bba513dabd9fa50b0fdf71a2562",
                 "shasum": ""
             },
             "require": {
@@ -280,7 +280,7 @@
                 }
             ],
             "description": "Config component for the SlaxWeb Framework",
-            "time": "2016-03-26 10:28:36"
+            "time": "2016-03-31 15:30:37"
         },
         {
             "name": "slaxweb/exception",
@@ -374,12 +374,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Hooks.git",
-                "reference": "37e41781b9dbbd00505bdf4020fabb80205e3b59"
+                "reference": "a03219ce7cbf3e8323bf11fb9b7f832bf8f55836"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Hooks/zipball/37e41781b9dbbd00505bdf4020fabb80205e3b59",
-                "reference": "37e41781b9dbbd00505bdf4020fabb80205e3b59",
+                "url": "https://api.github.com/repos/SlaxWeb/Hooks/zipball/a03219ce7cbf3e8323bf11fb9b7f832bf8f55836",
+                "reference": "a03219ce7cbf3e8323bf11fb9b7f832bf8f55836",
                 "shasum": ""
             },
             "require": {
@@ -417,7 +417,7 @@
                 }
             ],
             "description": "Hooks library for SlaxWeb Framework",
-            "time": "2016-03-28 09:42:32"
+            "time": "2016-03-31 15:35:27"
         },
         {
             "name": "slaxweb/logger",
@@ -471,12 +471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Router.git",
-                "reference": "5e3fa951f93f4805d2ca90936953578136b98bb5"
+                "reference": "64ffdcfc8bffa8cf55fe0881d006bf1a4c6b6dd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/5e3fa951f93f4805d2ca90936953578136b98bb5",
-                "reference": "5e3fa951f93f4805d2ca90936953578136b98bb5",
+                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/64ffdcfc8bffa8cf55fe0881d006bf1a4c6b6dd5",
+                "reference": "64ffdcfc8bffa8cf55fe0881d006bf1a4c6b6dd5",
                 "shasum": ""
             },
             "require": {
@@ -518,7 +518,7 @@
                 }
             ],
             "description": "Router component for the SlaxWeb/Framework",
-            "time": "2016-03-30 14:41:44"
+            "time": "2016-03-31 15:36:39"
         },
         {
             "name": "symfony/http-foundation",
