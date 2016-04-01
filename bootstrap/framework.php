@@ -3,9 +3,9 @@
  * SlaxWeb Framework Bootstrap
  *
  * The Bootstrap is the first thing getting executed in the Framework. It
- * initiates the application, and starts it. It returns the instance of the
- * application to the requestor, so it can print the response with the response
- * object.
+ * initiates the application It returns the instance of the application to the
+ * requestor, so it can start the application and print the response with the
+ * response object.
  *
  * @package   SlaxWeb\Framework
  * @author    Tomaz Lovrec <tomaz.lovrec@gmail.com>
@@ -36,8 +36,5 @@ $app["autoloader.service"] = function () use ($loader) {
 
 // initialize the app
 $app->init();
-
-// start application
-$app->run($app["request.service"], $app["response.service"]);
 
 return $app;

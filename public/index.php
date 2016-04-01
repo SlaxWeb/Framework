@@ -15,5 +15,8 @@
 // get the app instance
 $app = require_once "../bootstrap/framework.php";
 
+// start application
+$app->run($app["request.service"], $app["response.service"]);
+
 // print the output
 $app["response.service"]->send();
