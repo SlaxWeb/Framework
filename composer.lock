@@ -404,12 +404,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Bootstrap.git",
-                "reference": "e80a754dab3f5477a619bd46446f3779b5df985a"
+                "reference": "cbcca05eb1f5e67d47212fe747acf112d6bb25aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/e80a754dab3f5477a619bd46446f3779b5df985a",
-                "reference": "e80a754dab3f5477a619bd46446f3779b5df985a",
+                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/cbcca05eb1f5e67d47212fe747acf112d6bb25aa",
+                "reference": "cbcca05eb1f5e67d47212fe747acf112d6bb25aa",
                 "shasum": ""
             },
             "require": {
@@ -449,7 +449,7 @@
                 }
             ],
             "description": "Bootstrap for SlaxWeb Framework",
-            "time": "2016-04-06 13:56:42"
+            "time": "2016-04-06 14:33:16"
         },
         {
             "name": "slaxweb/config",
@@ -457,12 +457,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Config.git",
-                "reference": "3c1553c9a6ebdf7f70ccfbb29c10af402a751fc5"
+                "reference": "1c384e60c02f64778b95e0c155b7334848043806"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Config/zipball/3c1553c9a6ebdf7f70ccfbb29c10af402a751fc5",
-                "reference": "3c1553c9a6ebdf7f70ccfbb29c10af402a751fc5",
+                "url": "https://api.github.com/repos/SlaxWeb/Config/zipball/1c384e60c02f64778b95e0c155b7334848043806",
+                "reference": "1c384e60c02f64778b95e0c155b7334848043806",
                 "shasum": ""
             },
             "require": {
@@ -500,7 +500,7 @@
                 }
             ],
             "description": "Config component for the SlaxWeb Framework",
-            "time": "2016-04-06 13:50:35"
+            "time": "2016-04-06 14:31:01"
         },
         {
             "name": "slaxweb/exception",
@@ -746,12 +746,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Slaxer.git",
-                "reference": "2a6c5bf316177c59d7113909123689c110d30b8b"
+                "reference": "03faf01401b23de680731b93050dc4b8d42c6d42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Slaxer/zipball/2a6c5bf316177c59d7113909123689c110d30b8b",
-                "reference": "2a6c5bf316177c59d7113909123689c110d30b8b",
+                "url": "https://api.github.com/repos/SlaxWeb/Slaxer/zipball/03faf01401b23de680731b93050dc4b8d42c6d42",
+                "reference": "03faf01401b23de680731b93050dc4b8d42c6d42",
                 "shasum": ""
             },
             "require": {
@@ -785,7 +785,7 @@
                 }
             ],
             "description": "Slaxer Command Line Tool for SlaxWeb Framework",
-            "time": "2016-04-06 13:46:21"
+            "time": "2016-04-06 14:11:17"
         },
         {
             "name": "symfony/console",
