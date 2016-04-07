@@ -457,12 +457,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Config.git",
-                "reference": "0ecdcdb48b1532912c700fb3a4234378adafddd0"
+                "reference": "b52cadab58863c5bf3a9e3eed6fb6ceefe28ea9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Config/zipball/0ecdcdb48b1532912c700fb3a4234378adafddd0",
-                "reference": "0ecdcdb48b1532912c700fb3a4234378adafddd0",
+                "url": "https://api.github.com/repos/SlaxWeb/Config/zipball/b52cadab58863c5bf3a9e3eed6fb6ceefe28ea9f",
+                "reference": "b52cadab58863c5bf3a9e3eed6fb6ceefe28ea9f",
                 "shasum": ""
             },
             "require": {
@@ -500,7 +500,7 @@
                 }
             ],
             "description": "Config component for the SlaxWeb Framework",
-            "time": "2016-04-07 06:17:38"
+            "time": "2016-04-07 07:01:12"
         },
         {
             "name": "slaxweb/exception",
