@@ -27,6 +27,7 @@ $app = new SlaxWeb\Bootstrap\Application(
 $app->register(new SlaxWeb\Hooks\Service\Provider);
 $app->register(new SlaxWeb\Config\Service\Provider);
 $app->register(new SlaxWeb\Logger\Service\Provider);
+$app->register(new SlaxWeb\Router\Service\Provider);
 
 // expose autoloader to the DIC
 $app["autoloader.service"] = function () use ($loader) {
