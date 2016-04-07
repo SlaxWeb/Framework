@@ -12,4 +12,4 @@
  * @version   0.4
  */
 // load bootstrap
-return require_once "framework.php";
+return require "framework.php";

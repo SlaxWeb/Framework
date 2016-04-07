@@ -12,7 +12,7 @@
  * @version   0.4
  */
 // load bootstrap
-$app = require_once "framework.php";
+$app = require "framework.php";
 
 // register the Slaxer Service Provider
 $app->register(new SlaxWeb\Slaxer\Service\Provider);
