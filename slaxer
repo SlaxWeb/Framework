@@ -14,10 +14,7 @@
  * @version   0.4
  */
 // get the app instance
-$app = require_once "bootstrap/framework.php";
-
-// register the Slaxer Service Provider
-$app->register(new SlaxWeb\Slaxer\Service\Provider);
+$app = require_once "bootstrap/slaxer.php";
 
 // run the CLI app
 $app["slaxer.service"]->run();

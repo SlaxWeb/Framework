@@ -13,7 +13,7 @@
  * @version   0.4
  */
 // get the app instance
-$app = require_once "../bootstrap/framework.php";
+$app = require_once "../bootstrap/web.php";
 
 // start application
 $app->run($app["request.service"], $app["response.service"]);
