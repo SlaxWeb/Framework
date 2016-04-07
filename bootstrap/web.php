@@ -17,5 +17,8 @@ $app = require_once "framework.php";
 // register router
 $app->register(new SlaxWeb\Router\Service\Provider);
 
+// initialize the app
+$app->init();
+
 // return the application instance
 return $app;

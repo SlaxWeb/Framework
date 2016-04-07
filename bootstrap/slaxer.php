@@ -17,6 +17,9 @@ $app = require_once "framework.php";
 // register the Slaxer Service Provider
 $app->register(new SlaxWeb\Slaxer\Service\Provider);
 
+// initialize the app
+$app->initCli();
+
 // prepare commands to be injected into slaxer
 $app["slaxerCommands"] = array_merge(
     $app["config.service"]["app.commandsList"] ?? [],

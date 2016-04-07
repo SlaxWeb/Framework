@@ -33,7 +33,4 @@ $app["autoloader.service"] = function () use ($loader) {
     return $loader;
 };
 
-// initialize the app
-$app->init();
-
 return $app;
