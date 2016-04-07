@@ -4,6 +4,8 @@ Changes between version.
 
 ## Current version
 
+* add slaxer CLI tool
+
 ## v0.3
 
 ### v0.3.1
