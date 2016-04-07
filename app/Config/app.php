@@ -55,3 +55,11 @@ $configuration["hooks.load"] = true;
 $configuration["hooksList"] = [
     \App\Hook\Sample::class // example hook definitions class, safe to remove
 ];
+
+/**
+ * Commands
+ *
+ * commandsList: List of Slaxer Command Classes that will be registered at
+ * booting.
+ */
+$configuration["commandsList"] = [];

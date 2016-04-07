@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+<?php
+/**
+ * SlaxWeb Framework CLI Tool
+ *
+ * Slaxer is the command line interface tool for the SlaxWeb Framework, used to
+ * execute commands.
+ *
+ * @package   SlaxWeb\Framework
+ * @author    Tomaz Lovrec <tomaz.lovrec@gmail.com>
+ * @copyright 2016 (c) Tomaz Lovrec
+ * @license   MIT <https://opensource.org/licenses/MIT>
+ * @link      https://github.com/slaxweb/
+ * @version   0.4
+ */
+// get the app instance
+$app = require_once "bootstrap/slaxer.php";
+
+// run the CLI app
+$app["slaxer.service"]->run();

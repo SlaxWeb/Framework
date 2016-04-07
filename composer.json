@@ -11,7 +11,8 @@
     ],
     "require": {
         "php":  ">=7.0.0",
-        "slaxweb/bootstrap": "0.4.*@dev"
+        "slaxweb/bootstrap": "0.4.*@dev",
+        "slaxweb/slaxer": "0.1.*@dev"
     },
     "extra": {
         "branch-alias": {
