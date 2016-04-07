@@ -12,10 +12,4 @@
  * @version   0.4
  */
 // load bootstrap
-$app = require_once "framework.php";
-
-// initialize the app
-$app->init();
-
-// return the application instance
-return $app;
+return require_once "framework.php";
