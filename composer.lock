@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "8e4e5ef9fbcc6ced335f398b32dcf2a0e4a24acb"
+                "reference": "85cb758d7367f3aaaa8ffc9269e777919c5f68bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/8e4e5ef9fbcc6ced335f398b32dcf2a0e4a24acb",
-                "reference": "8e4e5ef9fbcc6ced335f398b32dcf2a0e4a24acb",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/85cb758d7367f3aaaa8ffc9269e777919c5f68bb",
+                "reference": "85cb758d7367f3aaaa8ffc9269e777919c5f68bb",
                 "shasum": ""
             },
             "require": {
@@ -67,7 +67,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2016-04-01 05:52:09"
+            "time": "2016-04-06 17:59:33"
         },
         {
             "name": "guzzlehttp/promises",
@@ -457,12 +457,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Config.git",
-                "reference": "1c384e60c02f64778b95e0c155b7334848043806"
+                "reference": "0ecdcdb48b1532912c700fb3a4234378adafddd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Config/zipball/1c384e60c02f64778b95e0c155b7334848043806",
-                "reference": "1c384e60c02f64778b95e0c155b7334848043806",
+                "url": "https://api.github.com/repos/SlaxWeb/Config/zipball/0ecdcdb48b1532912c700fb3a4234378adafddd0",
+                "reference": "0ecdcdb48b1532912c700fb3a4234378adafddd0",
                 "shasum": ""
             },
             "require": {
@@ -500,7 +500,7 @@
                 }
             ],
             "description": "Config component for the SlaxWeb Framework",
-            "time": "2016-04-06 14:31:01"
+            "time": "2016-04-07 06:17:38"
         },
         {
             "name": "slaxweb/exception",
