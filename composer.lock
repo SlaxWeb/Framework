@@ -691,12 +691,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Router.git",
-                "reference": "09615400835c0d7f1e037149001d7631f561a3aa"
+                "reference": "b98074de8bcd4fb515422a97ce9b915eb0e4d183"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/09615400835c0d7f1e037149001d7631f561a3aa",
-                "reference": "09615400835c0d7f1e037149001d7631f561a3aa",
+                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/b98074de8bcd4fb515422a97ce9b915eb0e4d183",
+                "reference": "b98074de8bcd4fb515422a97ce9b915eb0e4d183",
                 "shasum": ""
             },
             "require": {
@@ -738,7 +738,7 @@
                 }
             ],
             "description": "Router component for the SlaxWeb/Framework",
-            "time": "2016-04-08 10:00:11"
+            "time": "2016-04-08 10:45:48"
         },
         {
             "name": "slaxweb/slaxer",
