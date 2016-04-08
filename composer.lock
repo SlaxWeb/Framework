@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f62b5209af4432bf8717be95d482d233",
+    "hash": "60543471bf16a7e812686ab4fdad6c44",
     "content-hash": "5eb45e873601fe87e16a40ade7e216ae",
     "packages": [
         {
@@ -746,12 +746,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Slaxer.git",
-                "reference": "73d28fb489b68946a5f746b0874342d8ebe952c9"
+                "reference": "899f68b3cf32dfbfd193ec3fe75269d73929a144"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Slaxer/zipball/73d28fb489b68946a5f746b0874342d8ebe952c9",
-                "reference": "73d28fb489b68946a5f746b0874342d8ebe952c9",
+                "url": "https://api.github.com/repos/SlaxWeb/Slaxer/zipball/899f68b3cf32dfbfd193ec3fe75269d73929a144",
+                "reference": "899f68b3cf32dfbfd193ec3fe75269d73929a144",
                 "shasum": ""
             },
             "require": {
@@ -785,7 +785,7 @@
                 }
             ],
             "description": "Slaxer Command Line Tool for SlaxWeb Framework",
-            "time": "2016-04-07 09:05:27"
+            "time": "2016-04-08 09:01:08"
         },
         {
             "name": "symfony/console",
