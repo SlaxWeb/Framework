@@ -21,6 +21,7 @@
     },
     "autoload": {
         "psr-4": {
+            "App\\Command\\": "app/Command",
             "App\\Controller\\": "app/Controller/",
             "App\\Hook\\": "app/Hook/",
             "App\\Library\\": "app/Library/",
