@@ -19,7 +19,7 @@ $loader = require_once __DIR__ . "/../vendor/autoload.php";
 
 // load the application class
 $app = new SlaxWeb\Bootstrap\Application(
-    __DIR__,
+    realpath(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "public"),
     realpath(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "app")
 );
 
