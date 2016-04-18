@@ -11,7 +11,21 @@
  * @link      https://github.com/slaxweb/
  * @version   0.4
  */
-/**
+/*
+ * Application environment
+ *
+ * Available values are:
+ * - development
+ * - staging
+ * - production
+ *
+ * This setting does not control logging or whatsoever, you may reference it bellow however.
+ * The framework will output all error and exception messages directly in 'development'
+ * environment, but will not do so in 'stagint' nor 'production' environments.
+ */
+$configuration["environment"] = "development";
+
+/*
  * Routes settings
  *
  * routes.load: Should the Application load the Route Collections?
