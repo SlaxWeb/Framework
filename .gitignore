@@ -4,3 +4,4 @@
 vendor/
 app/Logs/*.log
 .tags
+docs/build/
