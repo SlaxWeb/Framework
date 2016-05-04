@@ -1,6 +1,7 @@
 .. SlaxWeb Framework Getting Started documentation, created by
    Tomaz Lovrec <tomaz.lovrec@gmail.com>
 
+.. highlight:: php
 .. _composer: https://getcomposer.org/
 .. _releases: https://github.com/SlaxWeb/Framework/releases
 .. _Pimple container Documentation: http://pimple.sensiolabs.org/
@@ -24,7 +25,9 @@ To install the Framework there you can install it through composer_, or download
 a pre-packaged version from the releases_ page. Be sure not to download the source code.
 
 To install with composer, you of course need to install it first, and then run
-the following commands::
+the following commands:
+
+.. code-block:: bash
 
     cd /var/www/
     composer create-project slaxweb/framework framework 0.4.0
@@ -45,7 +48,9 @@ is in the **public/** directory that comes with the framework.
 ```````````````````
 
 This is a sample nginx configuration file, configured to connect to a PHP-FPM network
-socket listening on localhost, port 9000::
+socket listening on localhost, port 9000:
+
+.. code-block:: bash
 
     server {
         listen                  *:80;
@@ -75,7 +80,9 @@ socket listening on localhost, port 9000::
 1.2 Apache + mod_php
 ````````````````````
 
-This is a sample VirtualHost configuration file for the Apache 2.4 Web Server::
+This is a sample VirtualHost configuration file for the Apache 2.4 Web Server:
+
+.. code-block:: bash
 
     <VirtualHost *:80>
         DocumentRoot        /var/www/install-dir/public
