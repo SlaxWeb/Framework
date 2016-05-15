@@ -2,7 +2,7 @@
 
 .. _Docker: https://www.docker.com/
 
-.. _framework-requirements:
+.. _framework requirements:
 
 Requirements
 ============

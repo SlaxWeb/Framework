@@ -19,8 +19,9 @@ savvy, you will not have any issue using SlaxWeb Framework.
 If this is your first encounter with SlaxWeb Framework, we strongly suggest you give
 our documentation a go, and familiarize with our Framework. Once you are done with
 the basic overview of the Framework, feel free to explore the more in-depth documentation
-of the class references, and keep in mind, if you ever get stuck, you can always
-return to this place, and maybe find a solution for your issue right here!
+of the components and class references, and keep in mind, if you ever get stuck,
+you can always return to this place, and maybe find a solution for your issue right
+here!
 
 Contents:
 
