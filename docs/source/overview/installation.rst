@@ -1,13 +1,15 @@
 .. SlaxWeb Framework installation file, created by
    Tomaz Lovrec <tomaz.lovrec@gmail.com>
 
-.. highlight:: php
+.. highlight:: bash
 .. _composer: https://getcomposer.org
 .. _composer basic usage documentation: https://getcomposer.org/doc/01-basic-usage.md
 .. _GitHub Release pages: https://github.com/SlaxWeb/Framework/releases
 
 .. _0.3.1: https://github.com/SlaxWeb/Framework/releases/download/0.3.1/slaxweb-framework-0.3.1.zip
 .. _0.3.0: https://github.com/SlaxWeb/Framework/releases/download/0.3.0/slaxweb-framework-0.3.0.zip
+
+.. _installation:
 
 Installation
 ============
@@ -59,8 +61,6 @@ this is not the case, then replace it with the way that you run composer command
 Before you start the installation, make sure you are in the right location, and then
 just simply execute the *create-project* composer command:
 
-.. code-block:: bash
-
     cd /var/www/
     composer create-project slaxweb/framework
 
@@ -72,8 +72,6 @@ SlaxWeb Framework. Yes it's that simple.
 If you would like to install the Framework into a different directory or from an
 older version or the next development snapshot, then you will have to change the
 above command slightly:
-
-.. code-block:: bash
 
     composer create-project slaxweb/framework directory version
 
@@ -102,8 +100,6 @@ from the following list:
 * `0.3.0`_
 
 After download is completed, you are going to need to unzip the archive:
-
-.. code-block:: bash
 
     cd /var/www/
     wget https://github.com/SlaxWeb/Framework/releases/download/<version>/slaxweb-framework-<version>.zip

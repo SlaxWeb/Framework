@@ -16,3 +16,4 @@ Contents:
 
    requirements
    installation
+   firstglance
