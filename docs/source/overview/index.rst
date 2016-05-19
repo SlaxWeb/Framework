@@ -17,3 +17,4 @@ Contents:
    requirements
    installation
    firstglance
+   mvc
