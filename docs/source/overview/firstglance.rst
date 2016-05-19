@@ -1,8 +1,8 @@
 .. SlaxWeb Framework firstglance file, created by
    Tomaz Lovrec <tomaz.lovrec@gmail.com>
 
-.. higligh:: bash
 .. _Composer Lock File: https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
+.. _here: https://getcomposer.org/doc/01-basic-usage.md#autoloading
 
 First glance at the framework
 =============================
@@ -120,6 +120,27 @@ of the Framework, for maintaining all the dependencies that the Framework has.
 Those files are not particularly required to run an application on the framework,
 however, you might need them at a later point, so it is advised that you do not
 remove them.
+
+Autoloader
+``````````
+
+One of the feature that the Framework relies on *composer*, is the composer autoloader.
+It loads Class source files automatically when requested. Read more about it here_.
+The Framework already defines the following *namespace* to *path* mappings for the
+autoloader:
+
+* **App\\Command\\**: app/Command/,
+* **App\\Controller\\**: app/Controller/,
+* **App\\Hook\\**: app/Hook/,
+* **App\\Library\\**: app/Library/,
+* **App\\Model\\**: app/Model/,
+* **App\\Provider\\**: app/Provider/,
+* **App\\Routes\\**: app/Routes,
+* **App\\View\\**: app/View/
+
+Those can of course freely be changed, but you will need **composer** installed
+in order to update the autoloader. If you do not understand this part yet, do not
+worry, it will be explained in the later sections of this documentation.
 
 Templating
 ----------
