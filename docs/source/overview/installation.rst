@@ -99,7 +99,7 @@ from the following list:
 * `0.3.1`_ - Latest
 * `0.3.0`_
 
-After download is completed, you are going to need to unzip the archive:
+After download is completed, you are going to need to unzip the archive::
 
     cd /var/www/
     wget https://github.com/SlaxWeb/Framework/releases/download/<version>/slaxweb-framework-<version>.zip
