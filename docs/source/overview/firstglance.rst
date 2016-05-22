@@ -7,7 +7,7 @@
 First glance at the framework
 =============================
 
-Now that you have successfuly installed SlaxWeb Framework, you can finally take
+Now that you have successfully installed SlaxWeb Framework, you can finally take
 a first glance at the complete framework. We will primarily focus on the directory
 structure in this part of the documentation. It is strongly advised that you do
 not skip this part of the documentation, as it holds information that will make
@@ -97,12 +97,12 @@ publicly available through a Web Server, so you can show your web application to
 the world. Those files typically include:
 
 * index.php - the main entry point for all document requests
-* CSS files - to give your applycation some style
+* CSS files - to give your application some style
 * JavaScript files - to give your *front end* some functionality
 * Images - because text only web pages are dull
 
 After you have installed the framework, there are already directories prepared for
-those files. They are pretty self explainatory, and are not documented here. Of
+those files. They are pretty self explanatory, and are not documented here. Of
 course, you can choose to rename those directories, or remove them completely. Just
 remember, this should be the only directory visible to the outside world through
 a Web Server in order to protect your application code from possible leaks.
