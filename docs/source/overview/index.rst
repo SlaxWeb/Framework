@@ -18,3 +18,4 @@ Contents:
    installation
    firstglance
    mvc
+   architecture
