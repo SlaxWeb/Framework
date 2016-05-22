@@ -188,6 +188,16 @@ The Framework also provides the autoloader instance as a service which you can u
 to add additional namespace definitions to the autoloader. Please see :ref:`services`
 for more information.
 
+URLs
+----
+
+The SlaxWeb Framework does not automatically map URL sections to :ref:`controllers`
+and their methods, but requires you create URL mappings to your code in the routes
+manually. By default, the *index.php* is included in the URL, and is of course required,
+because the Web Server needs to know through which file it must process the request.
+There are however methods to hide the *index.php* section from the URL. For more
+information please see the :ref:`webserver setup` section on how to do just that.
+
 Templating
 ----------
 

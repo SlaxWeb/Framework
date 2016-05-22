@@ -29,7 +29,7 @@ Contents:
    :maxdepth: 2
 
    overview/index
-   gettingstarted
+   gettingstarted/index
    components/index
 
 
