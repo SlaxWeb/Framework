@@ -1,8 +1,10 @@
 .. SlaxWeb Framework firstglance file, created by
    Tomaz Lovrec <tomaz.lovrec@gmail.com>
 
+.. _highlight: json
 .. _Composer Lock File: https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
 .. _here: https://getcomposer.org/doc/01-basic-usage.md#autoloading
+.. _autoloading: https://getcomposer.org/doc/04-schema.md#autoload
 
 First glance at the framework
 =============================
@@ -121,11 +123,13 @@ Those files are not particularly required to run an application on the framework
 however, you might need them at a later point, so it is advised that you do not
 remove them.
 
+.. _composer autoloader section:
+
 Autoloader
 ``````````
 
 One of the feature that the Framework relies on *composer*, is the composer autoloader.
-It loads Class source files automatically when requested. Read more about it here_.
+It loads Class source files automatically when requested. Read more about it `here`_.
 The Framework already defines the following *namespace* to *path* mappings for the
 autoloader:
 
@@ -135,12 +139,54 @@ autoloader:
 * **App\\Library\\**: app/Library/,
 * **App\\Model\\**: app/Model/,
 * **App\\Provider\\**: app/Provider/,
-* **App\\Routes\\**: app/Routes,
+* **App\\Routes\\**: app/Routes/,
 * **App\\View\\**: app/View/
 
-Those can of course freely be changed, but you will need **composer** installed
-in order to update the autoloader. If you do not understand this part yet, do not
-worry, it will be explained in the later sections of this documentation.
+.. _change autoloader:
+
+Changing Namespace Autoloading Settings
+'''''''''''''''''''''''''''''''''''''''
+
+Easiest way to change the Autoloading Settings for a namespace is to use **composer**
+directly. To move one of the already autoloaded namespaces to a different directory
+or rename a namespace, you will have to edit the **composer.json** file, more specifically,
+the **autoload** section. Lets say you wish to move the Routes definitions to **app/MyRoutes/**,
+and rename Controller namespace to **\\MyApp\\Controller** you will have to change
+the following::
+
+        //...
+        "autoload": {
+            "psr-4": {
+                //...
+                "App\\Controller\\": "app/Controller/",
+                //..
+                "App\\Routes\\": "app/Routes",
+                //...
+            }
+        },
+        //...
+
+To::
+
+        //...
+        "autoload": {
+            "psr-4": {
+                //...
+                "MyApp\\Controller\\": "app/Controller/",
+                //..
+                "App\\Routes\\": "app/MyRoutes",
+                //...
+            }
+        },
+        //...
+
+Adding of your own namespaces to the autoloader is of course, allowed as well. To
+familiarize yourself more with composer autoloader, read more about the composer
+autoloader `here`_ and in the `autoloading`_ composer documentation.
+
+The Framework also provides the autoloader instance as a service which you can use
+to add additional namespace definitions to the autoloader. Please see :ref:`services`
+for more information.
 
 Templating
 ----------
