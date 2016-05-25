@@ -4,6 +4,8 @@
 .. _highlight: bash
 .. _.htaccess: https://httpd.apache.org/docs/2.4/howto/htaccess.html
 .. _Built-in web server: http://php.net/manual/en/features.commandline.webserver.php
+.. _swoole extension for php: https://github.com/swoole/swoole-src
+.. _composer: https://getcomposer.org/
 
 .. _webserver setup:
 
@@ -126,6 +128,35 @@ To start the Built-in web server just position yourself into the :ref:`pub dir`,
 start it. The example command will start the listener on the **localhost** domain
 port **80**::
 
-    cd /var/www/framework
+    cd /var/www/framework/public
     php -S localhost 8000
 
+SlaxWeb App Server
+------------------
+
+The SlaxWeb App Server aims to provide a fast web server to squeeze the last bits
+of performance out of your application. To achieve this, it relies on the high performance
+`swoole extension for php`_.
+
+The App Server is to be considered experimental, and we do not recommend on using
+it in a production environment for now!
+
+If you wish to familiarize yourself with the SlaxWeb App Server, please first read
+the :ref:`slaxer component` documentation, since the App Server is installed and
+controlled from it.
+
+To install the appserver, position yourself to the root install directory of the
+framework and install the component with **slaxer**::
+
+    cd /var/www/framework
+    ./slaxer component:install appserver
+
+Note that in order to install components with **slaxer** you will need composer_
+installed and available in your path!
+
+After the component has been installed, you need to start the server::
+
+    ./slaxer server start
+
+For more information about the SlaxWeb App Server please refer to the :ref:`app
+server component` documentation.
