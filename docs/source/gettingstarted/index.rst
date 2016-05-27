@@ -23,3 +23,6 @@ Contents:
    webserver
    routes
    homepage
+   newslisting
+   addnews
+   editnews
