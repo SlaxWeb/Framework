@@ -9,7 +9,6 @@ of the essential components in modern web applications, especially those which r
 on a single entry point. With a Router, you control which part of your code will
 handle an incoming request, based on its URI and request method.
 
-
 Route
 -----
 
@@ -18,3 +17,6 @@ Container
 
 Dispatcher
 ----------
+
+Route Collections
+-----------------
