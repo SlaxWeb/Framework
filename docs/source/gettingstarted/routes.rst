@@ -61,6 +61,8 @@ we will add the full name of the class into the configuration file **app/Config/
     ];
     // ...
 
+.. _add route:
+
 Adding a route
 --------------
 
