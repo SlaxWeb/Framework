@@ -11,8 +11,9 @@ create your first simple application with it.
 
 The application we will build in this guide will be a simple news application, where
 we will have 2 pages, one for displaying of said news, and one for creating and
-editing. It is advised that you go through this guide to get a feeling how applications
-are written with the SlaxWeb Framework.
+editing, we will also create a third page, which will just be a static page. It
+is advised that you go through this guide to get a feeling how applications are
+written with the SlaxWeb Framework.
 
 Contents:
 
