@@ -746,12 +746,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Slaxer.git",
-                "reference": "ea1f2cd78c847c5c1d5d9c5feb54e366caab2978"
+                "reference": "1a6d5095080e5bd4a4a823806d1dac4e1d62cd0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Slaxer/zipball/ea1f2cd78c847c5c1d5d9c5feb54e366caab2978",
-                "reference": "ea1f2cd78c847c5c1d5d9c5feb54e366caab2978",
+                "url": "https://api.github.com/repos/SlaxWeb/Slaxer/zipball/1a6d5095080e5bd4a4a823806d1dac4e1d62cd0d",
+                "reference": "1a6d5095080e5bd4a4a823806d1dac4e1d62cd0d",
                 "shasum": ""
             },
             "require": {
@@ -785,7 +785,7 @@
                 }
             ],
             "description": "Slaxer Command Line Tool for SlaxWeb Framework",
-            "time": "2016-05-29 09:03:16"
+            "time": "2016-05-29 09:45:21"
         },
         {
             "name": "symfony/console",
