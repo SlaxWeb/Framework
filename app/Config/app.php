@@ -37,7 +37,7 @@ $configuration["environment"] = "development";
  */
 $configuration["routes.load"] = true;
 $configuration["routesList"] = [
-    \App\Routes\DefaultCollection::class // remove only if you have routes elsewhere!
+    \App\Routes\DefaultCollection::class // remove only if you have routes elsewhere, no routes no app!
 ];
 
 /*
@@ -53,7 +53,7 @@ $configuration["routesList"] = [
  */
 $configuration["provider.register"] = true;
 $configuration["providerList"] = [
-    \App\Provider\Sample::class // remove only if you have routes elsewhere
+    \App\Provider\Sample::class // safe to remove, presentational purposes only
 ];
 
 /*
@@ -67,7 +67,7 @@ $configuration["providerList"] = [
  */
 $configuration["hooks.load"] = true;
 $configuration["hooksList"] = [
-    \App\Hook\Sample::class // example hook definitions class, safe to remove
+    \App\Hook\Sample::class // safe to remove, presentational purposes only
 ];
 
 /**
