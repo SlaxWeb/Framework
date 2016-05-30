@@ -746,12 +746,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Slaxer.git",
-                "reference": "1a6d5095080e5bd4a4a823806d1dac4e1d62cd0d"
+                "reference": "044d2c501ed1d518f4fad5ce90772f4454c16f81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Slaxer/zipball/1a6d5095080e5bd4a4a823806d1dac4e1d62cd0d",
-                "reference": "1a6d5095080e5bd4a4a823806d1dac4e1d62cd0d",
+                "url": "https://api.github.com/repos/SlaxWeb/Slaxer/zipball/044d2c501ed1d518f4fad5ce90772f4454c16f81",
+                "reference": "044d2c501ed1d518f4fad5ce90772f4454c16f81",
                 "shasum": ""
             },
             "require": {
@@ -785,7 +785,7 @@
                 }
             ],
             "description": "Slaxer Command Line Tool for SlaxWeb Framework",
-            "time": "2016-05-29 09:45:21"
+            "time": "2016-05-30 08:28:45"
         },
         {
             "name": "symfony/console",
@@ -793,12 +793,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "6f1cd069e61cb52a1ea7b64eb9c844ee183e4eb5"
+                "reference": "c5e1b461d97ce93d333c1d1c8b727b1ffa849958"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/6f1cd069e61cb52a1ea7b64eb9c844ee183e4eb5",
-                "reference": "6f1cd069e61cb52a1ea7b64eb9c844ee183e4eb5",
+                "url": "https://api.github.com/repos/symfony/console/zipball/c5e1b461d97ce93d333c1d1c8b727b1ffa849958",
+                "reference": "c5e1b461d97ce93d333c1d1c8b727b1ffa849958",
                 "shasum": ""
             },
             "require": {
@@ -845,7 +845,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-05-26 08:07:40"
+            "time": "2016-05-30 06:58:55"
         },
         {
             "name": "symfony/http-foundation",
