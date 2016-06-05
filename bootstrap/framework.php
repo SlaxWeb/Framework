@@ -14,30 +14,32 @@
  * @link      https://github.com/slaxweb/
  * @version   0.4
  */
-// require the composer autoloader
-$loader = require_once __DIR__ . "/../vendor/autoload.php";
-
-// load the application class
-$app = new SlaxWeb\Bootstrap\Application(
-    realpath(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "public"),
-    realpath(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "app")
-);
-
-// register providers
-$app->register(new SlaxWeb\Hooks\Service\Provider);
-$app->register(new SlaxWeb\Config\Service\Provider);
-$app->register(new SlaxWeb\Logger\Service\Provider);
-$app->register(new SlaxWeb\Router\Service\Provider);
-
-// check environment, system environment variables have precedence
-$env = getenv("SWF_ENV") ?? $app["config.service"]["app.environment"];
-if ($env === "development") {
+// check system environment
+if (($env = getenv("SWF_ENV")) === "development") {
     ini_set("error_reporting", E_ALL);
     ini_set("display_errors", 1);
 } else {
     ini_set("error_reporting", 0);
     ini_set("display_errors", 0);
 }
+
+// require the composer autoloader
+$loader = require_once __DIR__ . "/../vendor/autoload.php";
+
+// load the application class
+$baseDir = realpath(__DIR__ . DIRECTORY_SEPARATOR . "..") . DIRECTORY_SEPARATOR;
+$app = new SlaxWeb\Bootstrap\Application("{$baseDir}public", "{$baseDir}app");
+
+// if system environment not set, check configured environment
+if ($env === false && $app["config.service"]["app.environment"] === "development") {
+    ini_set("error_reporting", E_ALL);
+    ini_set("display_errors", 1);
+}
+
+// register providers
+$app->register(new \SlaxWeb\Hooks\Service\Provider);
+$app->register(new \SlaxWeb\Logger\Service\Provider);
+$app->register(new \SlaxWeb\Router\Service\Provider);
 
 // initialize the app
 $app->init();
