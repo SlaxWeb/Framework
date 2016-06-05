@@ -66,9 +66,7 @@ $configuration["providerList"] = [
  *            load those classes.
  */
 $configuration["hooks.load"] = true;
-$configuration["hooksList"] = [
-    \App\Hook\Sample::class // safe to remove, presentational purposes only
-];
+$configuration["hooksList"] = [];
 
 /**
  * Commands
