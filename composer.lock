@@ -13,23 +13,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "b1a96f6134f69cb41f8538d3a6491f4bb1dbab78"
+                "reference": "158c17127299b183d4b9784d7385bb29fe2f5982"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b1a96f6134f69cb41f8538d3a6491f4bb1dbab78",
-                "reference": "b1a96f6134f69cb41f8538d3a6491f4bb1dbab78",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/158c17127299b183d4b9784d7385bb29fe2f5982",
+                "reference": "158c17127299b183d4b9784d7385bb29fe2f5982",
                 "shasum": ""
             },
             "require": {
-                "guzzlehttp/promises": "~1.0",
-                "guzzlehttp/psr7": "~1.1",
-                "php": ">=5.5.0"
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.3.1",
+                "php": ">=5.5"
             },
             "require-dev": {
                 "ext-curl": "*",
-                "phpunit/phpunit": "~4.0",
-                "psr/log": "~1.0"
+                "phpunit/phpunit": "^4.0",
+                "psr/log": "^1.0"
             },
             "type": "library",
             "extra": {
@@ -67,7 +67,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2016-05-08 19:39:56"
+            "time": "2016-07-21 20:48:12"
         },
         {
             "name": "guzzlehttp/promises",
@@ -122,16 +122,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "31382fef2889136415751badebbd1cb022a4ed72"
+                "reference": "b1501c9fd5845473f39b89db5ac9a39a7ab62a38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/31382fef2889136415751badebbd1cb022a4ed72",
-                "reference": "31382fef2889136415751badebbd1cb022a4ed72",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/b1501c9fd5845473f39b89db5ac9a39a7ab62a38",
+                "reference": "b1501c9fd5845473f39b89db5ac9a39a7ab62a38",
                 "shasum": ""
             },
             "require": {
@@ -147,7 +147,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -167,16 +167,23 @@
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
                 }
             ],
-            "description": "PSR-7 message implementation",
+            "description": "PSR-7 message implementation that also provides common utility methods",
             "keywords": [
                 "http",
                 "message",
+                "request",
+                "response",
                 "stream",
-                "uri"
+                "uri",
+                "url"
             ],
-            "time": "2016-04-13 19:56:01"
+            "time": "2016-07-25 11:34:12"
         },
         {
             "name": "monolog/monolog",
@@ -184,12 +191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "39aeecefaeacb43b7315399f37aee63b34930ec1"
+                "reference": "55841909e2bcde01b5318c35f2b74f8ecc86e037"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/39aeecefaeacb43b7315399f37aee63b34930ec1",
-                "reference": "39aeecefaeacb43b7315399f37aee63b34930ec1",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/55841909e2bcde01b5318c35f2b74f8ecc86e037",
+                "reference": "55841909e2bcde01b5318c35f2b74f8ecc86e037",
                 "shasum": ""
             },
             "require": {
@@ -254,7 +261,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-05-26 21:44:25"
+            "time": "2016-07-02 14:02:10"
         },
         {
             "name": "pimple/pimple",
@@ -404,12 +411,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Bootstrap.git",
-                "reference": "f97f751c6a2212da8c20048450a471206d0dfdf5"
+                "reference": "40cb0c8ea4575bac47c4a0999ac49001abd481ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/f97f751c6a2212da8c20048450a471206d0dfdf5",
-                "reference": "f97f751c6a2212da8c20048450a471206d0dfdf5",
+                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/40cb0c8ea4575bac47c4a0999ac49001abd481ef",
+                "reference": "40cb0c8ea4575bac47c4a0999ac49001abd481ef",
                 "shasum": ""
             },
             "require": {
@@ -422,8 +429,9 @@
             },
             "require-dev": {
                 "behat/gherkin": "~4.4",
-                "codeception/codeception": "dev-master",
-                "codeception/specify": "*"
+                "codeception/codeception": "~2.2",
+                "codeception/specify": "*",
+                "phpunit/phpunit": "~5.4"
             },
             "type": "library",
             "extra": {
@@ -449,7 +457,7 @@
                 }
             ],
             "description": "Bootstrap for SlaxWeb Framework",
-            "time": "2016-04-22 18:37:22"
+            "time": "2016-08-01 08:31:33"
         },
         {
             "name": "slaxweb/config",
@@ -691,12 +699,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Router.git",
-                "reference": "96b3eb75e9dbe95d19b82734f1daa3ca0485715d"
+                "reference": "be2f7a4bb1937f3a063fef8aaf945e13eb082372"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/96b3eb75e9dbe95d19b82734f1daa3ca0485715d",
-                "reference": "96b3eb75e9dbe95d19b82734f1daa3ca0485715d",
+                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/be2f7a4bb1937f3a063fef8aaf945e13eb082372",
+                "reference": "be2f7a4bb1937f3a063fef8aaf945e13eb082372",
                 "shasum": ""
             },
             "require": {
@@ -709,8 +717,9 @@
             },
             "require-dev": {
                 "behat/gherkin": "~4.4",
-                "codeception/codeception": "dev-master",
-                "codeception/specify": "*"
+                "codeception/codeception": "~2.2",
+                "codeception/specify": "*",
+                "phpunit/phpunit": "~5.4"
             },
             "suggest": {
                 "pimple/pimple": "Make use of available providers for Pimple version 3.0.x"
@@ -738,7 +747,7 @@
                 }
             ],
             "description": "Router component for the SlaxWeb/Framework",
-            "time": "2016-04-22 18:33:52"
+            "time": "2016-06-05 14:23:03"
         },
         {
             "name": "slaxweb/slaxer",
@@ -793,12 +802,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "c5e1b461d97ce93d333c1d1c8b727b1ffa849958"
+                "reference": "8398292e9c5bacfe4f48208aabaa80b3e67a65a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/c5e1b461d97ce93d333c1d1c8b727b1ffa849958",
-                "reference": "c5e1b461d97ce93d333c1d1c8b727b1ffa849958",
+                "url": "https://api.github.com/repos/symfony/console/zipball/8398292e9c5bacfe4f48208aabaa80b3e67a65a9",
+                "reference": "8398292e9c5bacfe4f48208aabaa80b3e67a65a9",
                 "shasum": ""
             },
             "require": {
@@ -808,11 +817,13 @@
             "require-dev": {
                 "psr/log": "~1.0",
                 "symfony/event-dispatcher": "~2.8|~3.0",
+                "symfony/filesystem": "~2.8|~3.0",
                 "symfony/process": "~2.8|~3.0"
             },
             "suggest": {
                 "psr/log": "For using the console logger",
                 "symfony/event-dispatcher": "",
+                "symfony/filesystem": "",
                 "symfony/process": ""
             },
             "type": "library",
@@ -845,7 +856,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-05-30 06:58:55"
+            "time": "2016-07-30 07:26:43"
         },
         {
             "name": "symfony/http-foundation",
@@ -853,12 +864,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "7e7799e22166165b268cb9a5752f28e947277963"
+                "reference": "2a556af39e2f90d149bbe5d505b24e31896d2b92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/7e7799e22166165b268cb9a5752f28e947277963",
-                "reference": "7e7799e22166165b268cb9a5752f28e947277963",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/2a556af39e2f90d149bbe5d505b24e31896d2b92",
+                "reference": "2a556af39e2f90d149bbe5d505b24e31896d2b92",
                 "shasum": ""
             },
             "require": {
@@ -898,7 +909,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-05-13 18:13:23"
+            "time": "2016-07-17 14:08:33"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -906,12 +917,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "67f0d2b927796648c5c38cedb7a2c8f1cf14e7dc"
+                "reference": "8a6bdec191138e01c92ae026e5aacb7b3e66267d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/67f0d2b927796648c5c38cedb7a2c8f1cf14e7dc",
-                "reference": "67f0d2b927796648c5c38cedb7a2c8f1cf14e7dc",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/8a6bdec191138e01c92ae026e5aacb7b3e66267d",
+                "reference": "8a6bdec191138e01c92ae026e5aacb7b3e66267d",
                 "shasum": ""
             },
             "require": {
@@ -957,7 +968,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-05-26 01:13:28"
+            "time": "2016-06-29 14:58:48"
         }
     ],
     "packages-dev": [],
