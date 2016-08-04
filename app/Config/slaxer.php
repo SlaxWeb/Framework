@@ -30,8 +30,16 @@ $configuration["baseUrl"] = "https://packagist.org/packages/";
  * or break installation of certain packages. Proceed with caution!
  */
 $configuration["componentSettings"] = [
-    "appserver" =>  [
+    "appserver"     =>  [
         "version"       =>  "0.1.*@dev",
+        "installFlags"  =>  "--ignore-platform-reqs"
+    ],
+    "database"      =>  [
+        "version"       =>  "0.4.*@dev",
+        "installFlags"  =>  "--ignore-platform-reqs"
+    ],
+    "database-pdo"  =>  [
+        "version"       =>  "0.4.*@dev",
         "installFlags"  =>  "--ignore-platform-reqs"
     ]
 ];
