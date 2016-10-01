@@ -14,12 +14,12 @@ way to install other/third-party modules.
 Framework is still in an early development phase. Further updates might result 
 in a case where backward compatibility would be broken. Should this happen, 
 prior announcement will be made and ways to workaround the issue will be made
-available. Nonetheless, it is still not encouraged to use Framework in a production
+available. Nonetheless, it is still not encouraged to use the Framework in a production
 environment.
 
 ## Components Build Status
 
-The table below shows the statuses of all SlaxWeb components currently used in 
+The table below shows the status of all SlaxWeb components currently used in 
 this release or the upcoming release:
 
 | Component | Build Status |
@@ -33,10 +33,10 @@ this release or the upcoming release:
 ## Usage and Installation
 
 For help on installing and usage, please refer to the
-[Getting Started](https://github.com/SlaxWeb/Framework/wiki/Getting-Started)
-Guide.
+[Getting Started Guide](https://github.com/SlaxWeb/Framework/wiki/Getting-Started).
+
 
 ## Contributing
 
-Contributions are welcome. Please read the Wiki before beginning, head over
+Contributions are welcome and highly appreciated. Please read the Wiki before beginning, head over
 to the issues and get crackin'. 
