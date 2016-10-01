@@ -14,7 +14,7 @@ way to install other/third-party modules.
 Framework is still in an early development phase. Further updates might result 
 in a case where backward compatibility would be broken. Should this happen, 
 prior announcement will be made and ways to workaround the issue will be made
-available. Nonetheless, it still not encourage to use SlaxWeb in a production
+available. Nonetheless, it is still not encouraged to use Framework in a production
 environment.
 
 ## Components Build Status
