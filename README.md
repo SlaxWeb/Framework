@@ -1,26 +1,26 @@
 # SlaxWeb/Framework
 
-SlaxWeb/Framework(Framework from now on) is a modular PHP Framework for
+SlaxWeb/Framework (referred to as Framework from now on) is a modular PHP Framework for
 Application development, where you choose which modules to use, if any at all.
 The Framework provides the bare minimum that you need for development of an
 Application.
 
-The Framework will supply you with all the other modules in the future, but they
-will not be hard-wired into the Framework, and you will still have an option to
-use something else, and integrate it into the Framework and thus your
-Application with relative ease. The Framework will also provide you a convenient
-way to install those modules.
+It will supply you with all the other modules in the future, but they
+will not be hard-wired into the Framework. You will still have an option to
+use something else, integrate it into the Framework and thus your
+Application with relative ease. Framework will also provide you a convenient
+way to install other/third-party modules.
 
-As the Framework is still in early development phases, there might come to a
-case where backward compatibility will be broken, but should this happen, there
-will be ample warning of it, and also ways to quickly work around those breaks.
-Non the less, it is still not encouraged to use Framework in a production
-environment, as it has not yet been fully tested.
+Framework is still in an early development phase. Further updates might result 
+in a case where backward compatibility would be broken. Should this happen, 
+prior announcement will be made and ways to workaround the issue will be made
+available. Nonetheless, it is still not encouraged to use the Framework in a production
+environment.
 
 ## Components Build Status
 
-Bellow you can find a table of statuses of all SlaxWeb components that are
-currently in use by this release, or the upcoming release:
+The table below shows the status of all SlaxWeb components currently used in 
+this release or the upcoming release:
 
 | Component | Build Status |
 | --- | --- |
@@ -33,11 +33,10 @@ currently in use by this release, or the upcoming release:
 ## Usage and Installation
 
 For help on installing and usage, please refer to the
-[Getting Started](https://github.com/SlaxWeb/Framework/wiki/Getting-Started)
-Guide.
+[Getting Started Guide](https://github.com/SlaxWeb/Framework/wiki/Getting-Started).
+
 
 ## Contributing
 
-You wish to contribute? That is just great! Please read the Wiki first, and then
-head over to the issues, pick one up, and get crackin'! But even if you submit a
-simple bug, it will be considered as much help too!
+Contributions are welcome and highly appreciated. Please read the Wiki before beginning, head over
+to the issues and get crackin'. 
