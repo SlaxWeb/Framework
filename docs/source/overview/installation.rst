@@ -23,7 +23,7 @@ packages from which you can create a project with it. Using the `composer`
 packages is the recommended way of installation, because, the SlaxWeb Framework is built
 around it, and its command line tool strongly depends on it, however,
 if you are not very comfortable doing that, follow the manual installation 
-steps for using prepared packages. 
+steps for using prepared packages.
 
 Preparing the environment
 -------------------------
@@ -61,7 +61,7 @@ and when it's done, SlaxWeb Framework is successfully installed.
 If you would like to install the Framework into a different directory, upgrade from
 an older version or the next development snapshot, use this command:
 
-   composer create-project slaxweb/framework directory version 
+   composer create-project slaxweb/framework directory version
 
 Where **directory** should be a valid directory name and version
 needs to be one of the following:
@@ -79,7 +79,11 @@ Download the prepared packages from [here](https://github.com/SlaxWeb/Framework/
 There is currently no way of installing the latest development snapshot, refer to this
 :ref:`install with composer` for installation using `composer`.
 
-Once you have the prepared packages, version `0.3.1`_ or `0.3.0`_, run the following commands:
+The following versions are available till date:
+ * `0.3.1`_ 
+ * `0.3.0`_
+
+Once you have the prepared packages, run the following commands:
 
    cd /var/www/
    wget https://github.com/SlaxWeb/Framework/releases/download/<version>/slaxweb-framework-<version>.zip
