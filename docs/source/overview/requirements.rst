@@ -7,19 +7,15 @@
 Requirements
 ============
 
-Because of SlaxWeb Frameworks Modular nature, it has very few requirements. It does
-not require a lot of services and resources. It does not even require a database
-in order to run. Bellow you can find a list of required services:
+The modular nature of SlaxWeb Framework allows easy installation and setup with minimal amount of resources required.
+It does not even require a database in order to run. The services required are:
 
 * PHP 7.0
 
-Yes, this is it. It requires only PHP 7.0. Since PHP provides an internal web server
-it is the only true requirement to get SlaxWeb Framework up and about. However, for
-a full production installation we do recommend a couple of more services:
+Yes, this is it. Since PHP 7.0 provides an internal web server, it is the only requirement to get SlaxWeb up and about.
+However, for a full production installation, the following services are recommended:
 
 * Composer
-* Web Server (Nginx, Aapache,...)
+* Web Server, such as Ngix, Apache, etc.
 
-Even with out minimal recommended requirements, this is still not a whole lot, and
-to the classic Web Application serving methods, we also provide you with Docker_
-containers, for simple and fast deployment of a SlaxWeb Framework powered Application.
+Apart from these we provide Docker_ containers, for easy, simple and fast deployment of a SlaxWeb Framework powered Application.
