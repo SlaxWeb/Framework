@@ -1,6 +1,8 @@
 .. SlaxWeb Framework Components documentation master file, created by
    Tomaz Lovrec <tomaz.lovrec@gmail.com>
 
+.. _components:
+
 Components
 ==========
 

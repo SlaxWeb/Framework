@@ -21,6 +21,7 @@ Contents:
    :maxdepth: 3
 
    webserver
+   preparation
    routes
    homepage
    newslisting
