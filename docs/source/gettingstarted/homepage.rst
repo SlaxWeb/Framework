@@ -3,6 +3,8 @@
 
 .. highlight:: html
 
+.. _guide homepage:
+
 Home Page
 =========
 

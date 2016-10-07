@@ -3,6 +3,8 @@
 
 .. highlight:: php
 
+.. _guide routes:
+
 Routes
 ======
 
