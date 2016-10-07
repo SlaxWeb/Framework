@@ -35,8 +35,8 @@ with the following contents::
 
     use SlaxWeb\Router\Route;
     use SlaxWeb\Bootstrap\Application;
-    use Symfony\Component\HttpFoundation\Request;
-    use Symfony\Component\HttpFoundation\Response;
+    use \SlaxWeb\Router\Request;
+    use \SlaxWeb\Router\Response;
 
     class NewsCollection extends \SlaxWeb\Router\Service\RouteCollection
     {
