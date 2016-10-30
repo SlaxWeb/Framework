@@ -412,12 +412,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Bootstrap.git",
-                "reference": "40cb0c8ea4575bac47c4a0999ac49001abd481ef"
+                "reference": "fc011b88bba8b018f34c773a8988621c24b41ebb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/40cb0c8ea4575bac47c4a0999ac49001abd481ef",
-                "reference": "40cb0c8ea4575bac47c4a0999ac49001abd481ef",
+                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/fc011b88bba8b018f34c773a8988621c24b41ebb",
+                "reference": "fc011b88bba8b018f34c773a8988621c24b41ebb",
                 "shasum": ""
             },
             "require": {
@@ -458,7 +458,7 @@
                 }
             ],
             "description": "Bootstrap for SlaxWeb Framework",
-            "time": "2016-08-01 08:31:33"
+            "time": "2016-10-30 10:55:21"
         },
         {
             "name": "slaxweb/config",
@@ -603,12 +603,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Hooks.git",
-                "reference": "a03219ce7cbf3e8323bf11fb9b7f832bf8f55836"
+                "reference": "4aafc1cc4f8af133a81ad6e1da15afb59d0d9fa4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Hooks/zipball/a03219ce7cbf3e8323bf11fb9b7f832bf8f55836",
-                "reference": "a03219ce7cbf3e8323bf11fb9b7f832bf8f55836",
+                "url": "https://api.github.com/repos/SlaxWeb/Hooks/zipball/4aafc1cc4f8af133a81ad6e1da15afb59d0d9fa4",
+                "reference": "4aafc1cc4f8af133a81ad6e1da15afb59d0d9fa4",
                 "shasum": ""
             },
             "require": {
@@ -646,7 +646,7 @@
                 }
             ],
             "description": "Hooks library for SlaxWeb Framework",
-            "time": "2016-03-31 15:35:27"
+            "time": "2016-10-30 10:51:28"
         },
         {
             "name": "slaxweb/logger",
@@ -700,12 +700,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Router.git",
-                "reference": "7012f0c90a8b0bed9e3409c0fdeab4af4ddc1c11"
+                "reference": "14db0094a872fdac58fe5423c025159b3712b727"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/7012f0c90a8b0bed9e3409c0fdeab4af4ddc1c11",
-                "reference": "7012f0c90a8b0bed9e3409c0fdeab4af4ddc1c11",
+                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/14db0094a872fdac58fe5423c025159b3712b727",
+                "reference": "14db0094a872fdac58fe5423c025159b3712b727",
                 "shasum": ""
             },
             "require": {
@@ -748,7 +748,7 @@
                 }
             ],
             "description": "Router component for the SlaxWeb/Framework",
-            "time": "2016-10-26 20:04:16"
+            "time": "2016-10-30 09:55:04"
         },
         {
             "name": "slaxweb/slaxer",
