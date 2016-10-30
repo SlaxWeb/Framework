@@ -24,14 +24,14 @@ class DefaultCollection extends \SlaxWeb\Router\Service\RouteCollection
     /**
      * Define routes
      *
-     * Add routes to the internal '_routes' protected property. The '_container'
+     * Add routes to the internal 'routes' protected property. The '_container'
      * protected property holds the DIC instance, and can be used freely.
      *
      * @return void
      */
     public function define()
     {
-        $this->_routes[] = [
+        $this->routes[] = [
             "uri"       =>  "",
             "method"    =>  Route::METHOD_GET,
             "action"    =>  function (
