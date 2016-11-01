@@ -34,9 +34,9 @@ with the following contents::
     namespace App\Routes;
 
     use SlaxWeb\Router\Route;
+    use SlaxWeb\Router\Request;
+    use SlaxWeb\Router\Response;
     use SlaxWeb\Bootstrap\Application;
-    use \SlaxWeb\Router\Request;
-    use \SlaxWeb\Router\Response;
 
     class NewsCollection extends \SlaxWeb\Router\Service\RouteCollection
     {
