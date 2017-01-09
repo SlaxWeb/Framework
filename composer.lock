@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "60543471bf16a7e812686ab4fdad6c44",
     "content-hash": "5eb45e873601fe87e16a40ade7e216ae",
     "packages": [
         {
@@ -13,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "0118099daf4afd2ab648efedf8790645315aa6c4"
+                "reference": "14fa40e26857c8f406d7a0c7d577705085fb6950"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/0118099daf4afd2ab648efedf8790645315aa6c4",
-                "reference": "0118099daf4afd2ab648efedf8790645315aa6c4",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/14fa40e26857c8f406d7a0c7d577705085fb6950",
+                "reference": "14fa40e26857c8f406d7a0c7d577705085fb6950",
                 "shasum": ""
             },
             "require": {
@@ -67,32 +66,32 @@
                 "rest",
                 "web service"
             ],
-            "time": "2016-10-28 00:09:06"
+            "time": "2017-01-05 10:54:39"
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "1.2.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "c10d860e2a9595f8883527fa0021c7da9e65f579"
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/c10d860e2a9595f8883527fa0021c7da9e65f579",
-                "reference": "c10d860e2a9595f8883527fa0021c7da9e65f579",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "^4.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -118,7 +117,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-05-18 16:56:05"
+            "time": "2016-12-20 10:07:11"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -126,12 +125,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "64862e854f876bc5aee2996cab2f552db8586065"
+                "reference": "5f17a79615bd36d52d3b3ce44075aec02605d8bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/64862e854f876bc5aee2996cab2f552db8586065",
-                "reference": "64862e854f876bc5aee2996cab2f552db8586065",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/5f17a79615bd36d52d3b3ce44075aec02605d8bf",
+                "reference": "5f17a79615bd36d52d3b3ce44075aec02605d8bf",
                 "shasum": ""
             },
             "require": {
@@ -183,7 +182,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2016-08-03 09:33:34"
+            "time": "2016-11-02 14:11:11"
         },
         {
             "name": "monolog/monolog",
@@ -191,12 +190,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "214b8ef34b17ed0fcd3a5e027ef5a9ae9ebeb193"
+                "reference": "b732364e70a615231f15944e015b31d0d77bf9f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/214b8ef34b17ed0fcd3a5e027ef5a9ae9ebeb193",
-                "reference": "214b8ef34b17ed0fcd3a5e027ef5a9ae9ebeb193",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/b732364e70a615231f15944e015b31d0d77bf9f5",
+                "reference": "b732364e70a615231f15944e015b31d0d77bf9f5",
                 "shasum": ""
             },
             "require": {
@@ -261,7 +260,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-10-03 18:31:30"
+            "time": "2016-12-13 14:25:55"
         },
         {
             "name": "pimple/pimple",
@@ -307,7 +306,7 @@
                 "container",
                 "dependency injection"
             ],
-            "time": "2015-09-11 15:10:35"
+            "time": "2015-09-11T15:10:35+00:00"
         },
         {
             "name": "psr/http-message",
@@ -466,12 +465,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Config.git",
-                "reference": "b52cadab58863c5bf3a9e3eed6fb6ceefe28ea9f"
+                "reference": "e623315d8d9d668b7bfc9d1bf4426a73091a3ba0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Config/zipball/b52cadab58863c5bf3a9e3eed6fb6ceefe28ea9f",
-                "reference": "b52cadab58863c5bf3a9e3eed6fb6ceefe28ea9f",
+                "url": "https://api.github.com/repos/SlaxWeb/Config/zipball/e623315d8d9d668b7bfc9d1bf4426a73091a3ba0",
+                "reference": "e623315d8d9d668b7bfc9d1bf4426a73091a3ba0",
                 "shasum": ""
             },
             "require": {
@@ -509,7 +508,7 @@
                 }
             ],
             "description": "Config component for the SlaxWeb Framework",
-            "time": "2016-04-07 07:01:12"
+            "time": "2017-01-08 19:44:32"
         },
         {
             "name": "slaxweb/exception",
@@ -603,12 +602,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Hooks.git",
-                "reference": "4aafc1cc4f8af133a81ad6e1da15afb59d0d9fa4"
+                "reference": "0333e117988c4c820c8004c33f6a8c80ae7ab2bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Hooks/zipball/4aafc1cc4f8af133a81ad6e1da15afb59d0d9fa4",
-                "reference": "4aafc1cc4f8af133a81ad6e1da15afb59d0d9fa4",
+                "url": "https://api.github.com/repos/SlaxWeb/Hooks/zipball/0333e117988c4c820c8004c33f6a8c80ae7ab2bf",
+                "reference": "0333e117988c4c820c8004c33f6a8c80ae7ab2bf",
                 "shasum": ""
             },
             "require": {
@@ -646,7 +645,7 @@
                 }
             ],
             "description": "Hooks library for SlaxWeb Framework",
-            "time": "2016-10-30 10:51:28"
+            "time": "2017-01-08 16:39:05"
         },
         {
             "name": "slaxweb/logger",
@@ -654,12 +653,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Logger.git",
-                "reference": "1fcd06f677163c65f126bc1310ce5483d8173733"
+                "reference": "77c2a4f073c0bfd59b132e329a45b32a4b0a1638"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Logger/zipball/1fcd06f677163c65f126bc1310ce5483d8173733",
-                "reference": "1fcd06f677163c65f126bc1310ce5483d8173733",
+                "url": "https://api.github.com/repos/SlaxWeb/Logger/zipball/77c2a4f073c0bfd59b132e329a45b32a4b0a1638",
+                "reference": "77c2a4f073c0bfd59b132e329a45b32a4b0a1638",
                 "shasum": ""
             },
             "require": {
@@ -692,7 +691,7 @@
                 }
             ],
             "description": "Logger component for SlaxWeb Framework",
-            "time": "2016-03-30 14:17:30"
+            "time": "2017-01-04 12:54:21"
         },
         {
             "name": "slaxweb/router",
@@ -700,12 +699,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Router.git",
-                "reference": "14db0094a872fdac58fe5423c025159b3712b727"
+                "reference": "d8519a2ee5e7dc4f60ebeac62f6ea218402bd7fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/14db0094a872fdac58fe5423c025159b3712b727",
-                "reference": "14db0094a872fdac58fe5423c025159b3712b727",
+                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/d8519a2ee5e7dc4f60ebeac62f6ea218402bd7fa",
+                "reference": "d8519a2ee5e7dc4f60ebeac62f6ea218402bd7fa",
                 "shasum": ""
             },
             "require": {
@@ -748,7 +747,7 @@
                 }
             ],
             "description": "Router component for the SlaxWeb/Framework",
-            "time": "2016-10-30 09:55:04"
+            "time": "2016-12-16 20:13:16"
         },
         {
             "name": "slaxweb/slaxer",
@@ -803,12 +802,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "d4875ff77dca3f5c6309e2f3f79ce17918ba3cc0"
+                "reference": "fddd0c5c7c9c3126c7e1f7ce7c851439a7e586b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/d4875ff77dca3f5c6309e2f3f79ce17918ba3cc0",
-                "reference": "d4875ff77dca3f5c6309e2f3f79ce17918ba3cc0",
+                "url": "https://api.github.com/repos/symfony/console/zipball/fddd0c5c7c9c3126c7e1f7ce7c851439a7e586b1",
+                "reference": "fddd0c5c7c9c3126c7e1f7ce7c851439a7e586b1",
                 "shasum": ""
             },
             "require": {
@@ -831,7 +830,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev"
+                    "dev-master": "3.3-dev"
                 }
             },
             "autoload": {
@@ -858,7 +857,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-27 15:03:48"
+            "time": "2017-01-08 21:15:04"
         },
         {
             "name": "symfony/debug",
@@ -866,12 +865,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "e6688db8d93472b5fce48b05fadf566a2520da5e"
+                "reference": "7a0d1faf0e3e9ef6c3eea08e48a461010ea211db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/e6688db8d93472b5fce48b05fadf566a2520da5e",
-                "reference": "e6688db8d93472b5fce48b05fadf566a2520da5e",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/7a0d1faf0e3e9ef6c3eea08e48a461010ea211db",
+                "reference": "7a0d1faf0e3e9ef6c3eea08e48a461010ea211db",
                 "shasum": ""
             },
             "require": {
@@ -888,7 +887,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev"
+                    "dev-master": "3.3-dev"
                 }
             },
             "autoload": {
@@ -915,7 +914,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-25 13:27:26"
+            "time": "2017-01-02 20:33:09"
         },
         {
             "name": "symfony/http-foundation",
@@ -923,12 +922,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "1457a889ff1ba1531853cddb3244539c81921efe"
+                "reference": "7a4332a3c7397378c40630cc2fa4c63ffdad56de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/1457a889ff1ba1531853cddb3244539c81921efe",
-                "reference": "1457a889ff1ba1531853cddb3244539c81921efe",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/7a4332a3c7397378c40630cc2fa4c63ffdad56de",
+                "reference": "7a4332a3c7397378c40630cc2fa4c63ffdad56de",
                 "shasum": ""
             },
             "require": {
@@ -941,7 +940,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev"
+                    "dev-master": "3.3-dev"
                 }
             },
             "autoload": {
@@ -968,7 +967,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-24 15:52:51"
+            "time": "2017-01-08 21:15:04"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -976,12 +975,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "53ad9faffe141fbe8f98cd6a7fd9a5e84513f56c"
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/53ad9faffe141fbe8f98cd6a7fd9a5e84513f56c",
-                "reference": "53ad9faffe141fbe8f98cd6a7fd9a5e84513f56c",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
                 "shasum": ""
             },
             "require": {
@@ -993,7 +992,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -1027,7 +1026,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-08-30 17:06:17"
+            "time": "2016-11-14 01:06:16"
         }
     ],
     "packages-dev": [],
