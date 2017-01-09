@@ -3,4 +3,4 @@ web:
   ports:
     - "8080:80"
   volumes:
-    - ./:/var/www/framework.dev/
+    - ./:/var/www/
