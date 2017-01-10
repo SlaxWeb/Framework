@@ -31,15 +31,27 @@ $configuration["baseUrl"] = "https://packagist.org/packages/";
  */
 $configuration["componentSettings"] = [
     "appserver"     =>  [
-        "version"       =>  "0.1.*@dev",
+        "version"       =>  "~0.1",
         "installFlags"  =>  "--ignore-platform-reqs"
     ],
     "database"      =>  [
-        "version"       =>  "0.4.*@dev",
+        "version"       =>  "~0.4",
         "installFlags"  =>  "--ignore-platform-reqs"
     ],
     "database-pdo"  =>  [
-        "version"       =>  "0.4.*@dev",
+        "version"       =>  "~0.4",
         "installFlags"  =>  "--ignore-platform-reqs"
-    ]
+    ],
+    "view"          =>  [
+        "version"       =>  "~0.4",
+        "installFlags"  =>  "--ignore-platform-reqs"
+    ],
+    "view-twig"     =>  [
+        "version"       =>  "~0.4",
+        "installFlags"  =>  "--ignore-platform-reqs"
+    ],
+    "session"       =>  [
+        "version"       =>  "~0.4",
+        "installFlags"  =>  "--ignore-platform-reqs"
+    ],
 ];

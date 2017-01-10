@@ -2,7 +2,6 @@
     "name": "slaxweb/framework",
     "description": "SlaxWeb/Framework, a modular Framework where you decide what you use, and how you use it",
     "license": "MIT",
-    "version": "0.3.1",
     "authors": [
         {
             "name": "Tomaz Lovrec",
@@ -11,12 +10,12 @@
     ],
     "require": {
         "php":  ">=7.0.0",
-        "slaxweb/bootstrap": "0.4.*@dev",
-        "slaxweb/slaxer": "0.1.*@dev"
+        "slaxweb/bootstrap": "~0.4",
+        "slaxweb/slaxer": "~0.1"
     },
     "extra": {
         "branch-alias": {
-            "dev-develop": "0.4.x-dev"
+            "dev-master": "0.5.x-dev"
         }
     },
     "autoload": {
@@ -30,6 +29,5 @@
             "App\\Routes\\": "app/Routes",
             "App\\View\\": "app/View/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
