@@ -24,17 +24,24 @@ currently in use by this release, or the upcoming release:
 
 | Component | Build Status |
 | --- | --- |
-| [Bootstrap](https://github.com/SlaxWeb/Bootstrap) | [![Build Status](https://travis-ci.org/SlaxWeb/Bootstrap.svg?branch=0.3.0)](https://travis-ci.org/SlaxWeb/Bootstrap) |
-| [Config](https://github.com/SlaxWeb/Bootstrap) | [![Build Status](https://travis-ci.org/SlaxWeb/Config.svg?branch=0.1.0)](https://travis-ci.org/SlaxWeb/Config) |
-| [Router](https://github.com/SlaxWeb/Bootstrap) | [![Build Status](https://travis-ci.org/SlaxWeb/Router.svg?branch=0.3.0)](https://travis-ci.org/SlaxWeb/Router) |
-| [Logger](https://github.com/SlaxWeb/Bootstrap) | No Status |
-| [Hooks](https://github.com/SlaxWeb/Bootstrap) | [![Build Status](https://travis-ci.org/SlaxWeb/Hooks.svg?branch=0.4.0)](https://travis-ci.org/SlaxWeb/Hooks) |
+| [Bootstrap](https://github.com/SlaxWeb/Bootstrap) | [![Build Status](https://travis-ci.org/SlaxWeb/Bootstrap.svg?branch=develop)](https://travis-ci.org/SlaxWeb/Bootstrap) |
+| [Config](https://github.com/SlaxWeb/Config) | [![Build Status](https://travis-ci.org/SlaxWeb/Config.svg?branch=develop)](https://travis-ci.org/SlaxWeb/Config) |
+| [Router](https://github.com/SlaxWeb/Router) | [![Build Status](https://travis-ci.org/SlaxWeb/Router.svg?branch=develop)](https://travis-ci.org/SlaxWeb/Router) |
+| [Logger](https://github.com/SlaxWeb/Logger) | Manual test passed |
+| [Hooks](https://github.com/SlaxWeb/Hooks) | [![Build Status](https://travis-ci.org/SlaxWeb/Hooks.svg?branch=develop)](https://travis-ci.org/SlaxWeb/Hooks) |
+| [View](https://github.com/SlaxWeb/View) | [![Build Status](https://travis-ci.org/SlaxWeb/View.svg?branch=develop)](https://travis-ci.org/SlaxWeb/View) |
+| [View-Twig](https://github.com/SlaxWeb/View-Twig) | Manual test passed |
+| [Database](https://github.com/SlaxWeb/Database) | [![Build Status](https://travis-ci.org/SlaxWeb/database.svg?branch=develop)](https://travis-ci.org/SlaxWeb/Database) |
+| [Database-PDO](https://github.com/SlaxWeb/Database-PDO) | [![Build Status](https://travis-ci.org/SlaxWeb/database.svg?branch=develop)](https://travis-ci.org/SlaxWeb/Database-PDO) |
+| [Slaxer](https://github.com/SlaxWeb/Slaxer) | Manual test passed |
+| [Session](https://github.com/SlaxWeb/Session) | Manual test passed |
+| [AppServer](https://github.com/SlaxWeb/AppServer) | Manual test passed |
+| [GetSet](https://github.com/SlaxWeb/GetSet) | Manual test passed |
 
 ## Usage and Installation
 
 For help on installing and usage, please refer to the
-[Getting Started](https://github.com/SlaxWeb/Framework/wiki/Getting-Started)
-Guide.
+[Documentation](https://slaxweb.github.io/Framework-Docs/).
 
 ## Contributing
 
