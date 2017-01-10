@@ -31,8 +31,8 @@ currently in use by this release, or the upcoming release:
 | [Hooks](https://github.com/SlaxWeb/Hooks) | [![Build Status](https://travis-ci.org/SlaxWeb/Hooks.svg?branch=develop)](https://travis-ci.org/SlaxWeb/Hooks) |
 | [View](https://github.com/SlaxWeb/View) | [![Build Status](https://travis-ci.org/SlaxWeb/View.svg?branch=develop)](https://travis-ci.org/SlaxWeb/View) |
 | [View-Twig](https://github.com/SlaxWeb/View-Twig) | Manual test passed |
-| [Database](https://github.com/SlaxWeb/Database) | [![Build Status](https://travis-ci.org/SlaxWeb/database.svg?branch=develop)](https://travis-ci.org/SlaxWeb/Database) |
-| [Database-PDO](https://github.com/SlaxWeb/Database-PDO) | [![Build Status](https://travis-ci.org/SlaxWeb/database.svg?branch=develop)](https://travis-ci.org/SlaxWeb/Database-PDO) |
+| [Database](https://github.com/SlaxWeb/Database) | [![Build Status](https://travis-ci.org/SlaxWeb/Database.svg?branch=develop)](https://travis-ci.org/SlaxWeb/Database) |
+| [Database-PDO](https://github.com/SlaxWeb/Database-PDO) | [![Build Status](https://travis-ci.org/SlaxWeb/Database-PDO.svg?branch=develop)](https://travis-ci.org/SlaxWeb/Database-PDO) |
 | [Slaxer](https://github.com/SlaxWeb/Slaxer) | Manual test passed |
 | [Session](https://github.com/SlaxWeb/Session) | Manual test passed |
 | [AppServer](https://github.com/SlaxWeb/AppServer) | Manual test passed |
