@@ -25,6 +25,44 @@
  */
 $configuration["environment"] = "development";
 
+/**
+ * Controller class namespace
+ *
+ * The namespace in which the Controller classes are defined.
+ *
+ * NOTE: If you change the autoloader config, you have to change this configuration
+ * as well. If you fail to do so, the "Controller Class Loader" will no longer work.
+ */
+$configuration["controllerNamespace"] = "\\App\\Controller\\";
+
+/*
+ * Segment-based URI matching
+ *
+ * Segment-based URI matching converts an URI string to different segments,that
+ * are delimited by forward slashes. The first segment is translated into a Controller
+ * class name, second segment into a method name, and further segments into parameters.
+ * By default this is disabled and has to be enabled here.
+ */
+$configuration["segmentBasedMatch"] = false;
+
+/*
+ * Segment-based URI matching default controller method
+ *
+ * If the URI holds only one segment, and therefore does not supply a controller
+ * method, the Router will attempt to execute this method instead.
+ */
+$configuration["segmentBasedDefaultMethod"] = "index";
+
+/*
+ * Segment-based URI prepend
+ *
+ * The Router will, per default, take the first URI segment as the Controller name.
+ * If a 'prepend' is defined here, then only URIs that begin with that prepend will
+ * be used for Segment-based URI matching, effectively pushing the "first segment"
+ * back.
+ */
+$configuration["segmentBasedUriPrepend"] = "";
+
 /*
  * Routes settings
  *
