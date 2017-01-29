@@ -36,6 +36,9 @@ if ($env === false && $app["config.service"]["app.environment"] === "development
     ini_set("display_errors", 1);
 }
 
+// set environment to application properties
+$app["environment"] = $env ?: $app["config.service"]["app.environment"];
+
 // register providers
 $app->register(new \SlaxWeb\Hooks\Service\Provider);
 $app->register(new \SlaxWeb\Logger\Service\Provider);
