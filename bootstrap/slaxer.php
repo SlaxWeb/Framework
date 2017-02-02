@@ -19,7 +19,7 @@ $app->register(new SlaxWeb\Slaxer\Service\Provider);
 
 // prepare commands to be injected into slaxer
 $app["slaxerCommands"] = array_merge(
-    $app["config.service"]["app.commandsList"] ?? [],
+    $app["config.service"]["provider.commandsList"] ?? [],
     $app["config.service"]["component.commands"] ?? []
 );
 
