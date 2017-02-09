@@ -43,6 +43,7 @@ $app["environment"] = $env ?: $app["config.service"]["app.environment"];
 $app->register(new \SlaxWeb\Hooks\Service\Provider);
 $app->register(new \SlaxWeb\Logger\Service\Provider);
 $app->register(new \SlaxWeb\Router\Service\Provider);
+$app->register(new \SlaxWeb\Bootstrap\Service\OutputProvider);
 
 // initialize the app
 $app->init();
