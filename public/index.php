@@ -17,6 +17,3 @@ $app = require_once "../bootstrap/web.php";
 
 // start application
 $app->run($app["request.service"], $app["response.service"]);
-
-// print the output
-$app["response.service"]->send();
