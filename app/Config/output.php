@@ -11,8 +11,6 @@
  * @link      https://github.com/slaxweb/
  * @version   0.4
  */
-use SlaxWeb\Output\Manager as Output;
-
 /*
  * Enables or disables the Output component, and must be set to bool(true) in order
  * to enable the component.
@@ -27,17 +25,17 @@ $configuration["enable"] = false;
 $configuration["permitDirectOutput"] = true;
 
 /*
- * Defines the default mode in which the Output component operates.
+ * Defines the Output Handler for the Output Manager. The Output component comes
+ * with existing handlers, but you may use your own. If you wish to use your own
+ * just set the full class name of your handler bellow, or the name of the service
+ * if you have registered it with the Application instance, or choose one pre-existing
+ * handler from the list bellow.
+ *
+ * NOTE: this can be overriden during runtime by setting the "outputHandler" application
+ * property.
  *
  * Available options:
- * Output::MODE_VIEW - int(0)
- * Output::MODE_JSON - int(1)
- * Output::MODE_FILE - int(2)
+ * - view
+ * - json
  */
-$configuration["defaultOutputMode"] = Output::MODE_JSON;
-
-/*
- * Defines if the Output mode may be changed once it has already been set manually.
- * Applies only after the mode has been changed first.
- */
-$configuration["permitModeChange"] = true;
+$configuration["defaultHandler"] = "view";
