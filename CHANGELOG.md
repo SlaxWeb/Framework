@@ -4,6 +4,22 @@ Changes between version.
 
 ## Current version
 
+* [Database] keep result object in model for simple access
+* [Bootstrap] often needed parameters set as application properties
+* [Bootstrap] controller loader
+* [Router] optional trailing slash matching in router
+* [Router] segment baser URI matching
+* [Database] soft delete functionality in database
+* [Database] model joining
+* [Framework] cache services initialized with 'protect' in providers
+* [Framework] providers/Hooks/Routes/Commands definitions moved from *app.php* to *provider.php* config file
+* [Database] SQL functions can now be used in update and insert statements as well as WHERE predicates
+* [Logger] prepend log file name with the logFilePath configuration option if the file name is a relative path
+* [Output] output component error output handling
+* [Output] output component view handler
+* [Output] output component json handler
+* [Output] output component output buffering and output restriction
+
 ## v0.4
 
 ### v0.4.0
