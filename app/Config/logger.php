@@ -22,6 +22,12 @@ use SlaxWeb\Logger\Helper as Log;
 $configuration["defaultLogger"] = "SlaxWebApp";
 
 /*
+ * Defines a path where all the loggers will write their log files. This directory
+ * has to be writable.
+ */
+$configuration["logFilePath"] = __DIR__ . "/../Logs/";
+
+/*
  * Settings for all available loggers
  *
  * SlaxWeb Framework provides multiple loggers, one for your app(which name you must change here as well if you
@@ -41,19 +47,19 @@ $configuration["defaultLogger"] = "SlaxWebApp";
 $configuration["loggerSettings"] = [
     "SlaxWebApp"    =>  [
         Log::L_TYPE_FILE    =>  [
-            __DIR__ . "/../Logs/App-" . date("Ymd") . ".log", // log path and filename
+            "App-" . date("Ymd") . ".log", // log path and filename
             Logger::DEBUG // log level
         ]
     ],
     "System"    =>  [
         Log::L_TYPE_FILE    =>  [
-            __DIR__ . "/../Logs/System-" . date("Ymd") . ".log", // log path and filename
+            "System-" . date("Ymd") . ".log", // log path and filename
             Logger::DEBUG // log level
         ]
     ],
     "Slaxer"    =>  [
         Log::L_TYPE_FILE    =>  [
-            __DIR__ . "/../Logs/Slaxer-" . date("Ymd") . ".log", // log path and filename
+            "Slaxer-" . date("Ymd") . ".log", // log path and filename
             Logger::DEBUG // log level
         ]
     ]
