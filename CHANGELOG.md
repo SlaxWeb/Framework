@@ -2,7 +2,7 @@
 
 Changes between version.
 
-## Current version
+## Current changes
 
 * [Bootstrap] often needed parameters set as application properties
 * [Bootstrap] controller loader
@@ -21,6 +21,11 @@ Changes between version.
 * [Router] segment baser URI matching
 
 ## v0.4
+
+### v0.4.1
+
+* [Config] minor code improvements
+* [Router] fix *redirect* causing an error if input was not a valid URL
 
 ### v0.4.0
 
