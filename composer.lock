@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "209f32896480ffa334843072a94bf08e",
+    "content-hash": "ca72eb8d01fa58caee8a7a6fddaa607f",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -400,16 +400,16 @@
         },
         {
             "name": "slaxweb/bootstrap",
-            "version": "0.4.0",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Bootstrap.git",
-                "reference": "825cc38ae13d9f8bf56f677463f11c6677046d4c"
+                "reference": "4428a2cea531b1e5435c61d0cd1f5762d2dc9469"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/825cc38ae13d9f8bf56f677463f11c6677046d4c",
-                "reference": "825cc38ae13d9f8bf56f677463f11c6677046d4c",
+                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/4428a2cea531b1e5435c61d0cd1f5762d2dc9469",
+                "reference": "4428a2cea531b1e5435c61d0cd1f5762d2dc9469",
                 "shasum": ""
             },
             "require": {
@@ -417,8 +417,9 @@
                 "pimple/pimple": "3.0.2",
                 "slaxweb/config": "~0.2",
                 "slaxweb/hooks": "~0.5",
-                "slaxweb/logger": "~0.3",
-                "slaxweb/router": "~0.4"
+                "slaxweb/logger": "~0.4",
+                "slaxweb/output": "~0.1",
+                "slaxweb/router": "~0.5"
             },
             "require-dev": {
                 "behat/gherkin": "~4.4",
@@ -434,9 +435,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "SlaxWeb\\Bootstrap\\": "src",
-                    "SlaxWeb\\Bootstrap\\Tests\\Unit\\": "tests/unit",
-                    "SlaxWeb\\Bootstrap\\Tests\\Helper\\": "tests/_support/Helper"
+                    "SlaxWeb\\Bootstrap\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -450,7 +449,7 @@
                 }
             ],
             "description": "Bootstrap for SlaxWeb Framework",
-            "time": "2017-01-10T19:58:44+00:00"
+            "time": "2017-02-18T11:38:35+00:00"
         },
         {
             "name": "slaxweb/config",
@@ -642,16 +641,16 @@
         },
         {
             "name": "slaxweb/logger",
-            "version": "0.3.0",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Logger.git",
-                "reference": "13b4bd80790e0ecf59b14de91bbbb342e8a2669c"
+                "reference": "15cb3027b23a6f05505244e1a06b81e83eb4abcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Logger/zipball/13b4bd80790e0ecf59b14de91bbbb342e8a2669c",
-                "reference": "13b4bd80790e0ecf59b14de91bbbb342e8a2669c",
+                "url": "https://api.github.com/repos/SlaxWeb/Logger/zipball/15cb3027b23a6f05505244e1a06b81e83eb4abcc",
+                "reference": "15cb3027b23a6f05505244e1a06b81e83eb4abcc",
                 "shasum": ""
             },
             "require": {
@@ -663,11 +662,6 @@
                 "slaxweb/config": "If you want to use the Factory or the Service Provider, Config component is required."
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.4.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "SlaxWeb\\Logger\\": "src/"
@@ -684,20 +678,68 @@
                 }
             ],
             "description": "Logger component for SlaxWeb Framework",
-            "time": "2017-01-10T19:20:53+00:00"
+            "time": "2017-02-18T11:26:17+00:00"
         },
         {
-            "name": "slaxweb/router",
-            "version": "0.4.1",
+            "name": "slaxweb/output",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/SlaxWeb/Router.git",
-                "reference": "9a3e558a7f21ec455c235f1a00d3e933fea6def3"
+                "url": "https://github.com/SlaxWeb/Output.git",
+                "reference": "c5156ff215863ac29ae1f0cafab60c194ebd27e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/9a3e558a7f21ec455c235f1a00d3e933fea6def3",
-                "reference": "9a3e558a7f21ec455c235f1a00d3e933fea6def3",
+                "url": "https://api.github.com/repos/SlaxWeb/Output/zipball/c5156ff215863ac29ae1f0cafab60c194ebd27e0",
+                "reference": "c5156ff215863ac29ae1f0cafab60c194ebd27e0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "slaxweb/config": "~0.2",
+                "slaxweb/logger": "~0.3",
+                "slaxweb/router": "~0.4"
+            },
+            "require-dev": {
+                "codeception/codeception": "~2.2",
+                "codeception/specify": "*",
+                "mockery/mockery": "~0.9",
+                "slaxweb/view": "~0.4"
+            },
+            "suggest": {
+                "slaxweb/view": "Required if you wish to use the View Handler"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SlaxWeb\\Output\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tomaz Lovrec",
+                    "email": "tomaz.lovrec@gmail.com"
+                }
+            ],
+            "description": "Handling output for the SlaxWeb Framework",
+            "time": "2017-02-18T11:36:39+00:00"
+        },
+        {
+            "name": "slaxweb/router",
+            "version": "0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SlaxWeb/Router.git",
+                "reference": "d2be9623fb6e2b99e010342666cd5604e89403b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/d2be9623fb6e2b99e010342666cd5604e89403b9",
+                "reference": "d2be9623fb6e2b99e010342666cd5604e89403b9",
                 "shasum": ""
             },
             "require": {
@@ -705,7 +747,7 @@
                 "slaxweb/config": "~0.2",
                 "slaxweb/getset": "~0.1",
                 "slaxweb/hooks": "~0.5",
-                "slaxweb/logger": "~0.3",
+                "slaxweb/logger": "~0.4",
                 "symfony/http-foundation": "~3.0"
             },
             "require-dev": {
@@ -718,15 +760,9 @@
                 "pimple/pimple": "Make use of available providers for Pimple version 3.0.x"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.5.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
-                    "SlaxWeb\\Router\\": "src/",
-                    "SlaxWeb\\Router\\Tests\\Unit\\": "tests/unit/"
+                    "SlaxWeb\\Router\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -740,20 +776,20 @@
                 }
             ],
             "description": "Router component for the SlaxWeb/Framework",
-            "time": "2017-02-17T11:48:44+00:00"
+            "time": "2017-02-18T11:29:23+00:00"
         },
         {
             "name": "slaxweb/slaxer",
-            "version": "0.1.0",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Slaxer.git",
-                "reference": "b406b9cfafde81d5c5b3186b704c9cbb40feafaf"
+                "reference": "6b4537b3b9ce99a57b0e15de78fcd28168708bd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Slaxer/zipball/b406b9cfafde81d5c5b3186b704c9cbb40feafaf",
-                "reference": "b406b9cfafde81d5c5b3186b704c9cbb40feafaf",
+                "url": "https://api.github.com/repos/SlaxWeb/Slaxer/zipball/6b4537b3b9ce99a57b0e15de78fcd28168708bd9",
+                "reference": "6b4537b3b9ce99a57b0e15de78fcd28168708bd9",
                 "shasum": ""
             },
             "require": {
@@ -766,11 +802,6 @@
                 "pimple/pimple": "Make use of available providers for Pimple version 3.0.x"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "SlaxWeb\\Slaxer\\": "src/"
@@ -787,7 +818,7 @@
                 }
             ],
             "description": "Slaxer Command Line Tool for SlaxWeb Framework",
-            "time": "2017-01-10T20:01:10+00:00"
+            "time": "2017-02-18T11:42:40+00:00"
         },
         {
             "name": "symfony/console",
