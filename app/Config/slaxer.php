@@ -35,19 +35,11 @@ $configuration["componentSettings"] = [
         "installFlags"  =>  "--ignore-platform-reqs"
     ],
     "database"      =>  [
-        "version"       =>  "~0.4",
-        "installFlags"  =>  "--ignore-platform-reqs"
-    ],
-    "database-pdo"  =>  [
-        "version"       =>  "~0.4",
+        "version"       =>  "~0.5",
         "installFlags"  =>  "--ignore-platform-reqs"
     ],
     "view"          =>  [
-        "version"       =>  "~0.4",
-        "installFlags"  =>  "--ignore-platform-reqs"
-    ],
-    "view-twig"     =>  [
-        "version"       =>  "~0.4",
+        "version"       =>  "~0.5",
         "installFlags"  =>  "--ignore-platform-reqs"
     ],
     "session"       =>  [
