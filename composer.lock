@@ -641,16 +641,16 @@
         },
         {
             "name": "slaxweb/logger",
-            "version": "0.4.0",
+            "version": "0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Logger.git",
-                "reference": "15cb3027b23a6f05505244e1a06b81e83eb4abcc"
+                "reference": "c3ecb8b8d31c4d0834e616ef7fccaf682d61fca2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Logger/zipball/15cb3027b23a6f05505244e1a06b81e83eb4abcc",
-                "reference": "15cb3027b23a6f05505244e1a06b81e83eb4abcc",
+                "url": "https://api.github.com/repos/SlaxWeb/Logger/zipball/c3ecb8b8d31c4d0834e616ef7fccaf682d61fca2",
+                "reference": "c3ecb8b8d31c4d0834e616ef7fccaf682d61fca2",
                 "shasum": ""
             },
             "require": {
@@ -678,7 +678,7 @@
                 }
             ],
             "description": "Logger component for SlaxWeb Framework",
-            "time": "2017-02-18T11:26:17+00:00"
+            "time": "2017-02-18T15:41:53+00:00"
         },
         {
             "name": "slaxweb/output",
