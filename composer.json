@@ -13,11 +13,6 @@
         "slaxweb/bootstrap": "~0.5",
         "slaxweb/slaxer": "~0.2"
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.5.x-dev"
-        }
-    },
     "autoload": {
         "psr-4": {
             "App\\Command\\": "app/Command",
