@@ -2,7 +2,9 @@
 
 Changes between version.
 
-## Current changes
+## v0.5
+
+### v0.5.0
 
 * [Bootstrap] often needed parameters set as application properties
 * [Bootstrap] controller loader
