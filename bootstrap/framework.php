@@ -40,9 +40,9 @@ if ($env === false && $app["config.service"]["app.environment"] === "development
 $app["environment"] = $env ?: $app["config.service"]["app.environment"];
 
 // register providers
-$app->register(new \SlaxWeb\Hooks\Service\Provider);
-$app->register(new \SlaxWeb\Logger\Service\Provider);
-$app->register(new \SlaxWeb\Router\Service\Provider);
+$app->register(new \SlaxWeb\Bootstrap\Service\HooksProvider);
+$app->register(new \SlaxWeb\Bootstrap\Service\LoggerProvider);
+$app->register(new \SlaxWeb\Bootstrap\Service\RouterProvider);
 $app->register(new \SlaxWeb\Bootstrap\Service\OutputProvider);
 
 // initialize the app
