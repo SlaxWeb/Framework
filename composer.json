@@ -10,7 +10,7 @@
     ],
     "require": {
         "php":  ">=7.0.0",
-        "slaxweb/bootstrap": "~0.5",
+        "slaxweb/bootstrap": "dev-master",
         "slaxweb/slaxer": "~0.2"
     },
     "extra": {
