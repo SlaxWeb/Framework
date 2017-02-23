@@ -2,6 +2,22 @@
 
 Changes between version.
 
+## Current changes
+
+* [Bootstrap] add service provider for config component
+* [Bootstrap] add service provider for hooks component
+* [Bootstrap] add service provider for logger component
+* [Bootstrap] add service provider for router component
+* [Bootstrap] add exception for invalid config handler
+* [Bootstrap] add exception for unknown logger handler
+* [Bootstrap] add exception for logger config
+* [Config] remove service provider
+* [Config] remove unneeded exception
+* [Framework] register moved service providers
+* [Hooks] remove service provider
+* [Router] remove service provider
+* [Router] remove factory
+
 ## v0.5
 
 ### v0.5.0
