@@ -29,5 +29,6 @@
             "App\\Routes\\": "app/Routes",
             "App\\View\\": "app/View/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
