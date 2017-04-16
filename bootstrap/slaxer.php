@@ -23,5 +23,8 @@ $app["slaxerCommands"] = array_merge(
     $app["config.service"]["component.commands"] ?? []
 );
 
+// disable output manager
+$app["output.manager"]->setEnabled(false);
+
 // return the application instance
 return $app;

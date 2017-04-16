@@ -14,6 +14,7 @@ Changes between version.
 * [Config] remove service provider
 * [Config] remove unneeded exception
 * [Framework] register moved service providers
+* [Framework] disable the output component in slaxer CLI tool bootstrap
 * [Hooks] remove service provider
 * [Router] remove service provider
 * [Router] remove factory
