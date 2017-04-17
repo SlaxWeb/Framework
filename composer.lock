@@ -414,12 +414,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Bootstrap.git",
-                "reference": "d2569594c3d3bf110b5688d67b16b90d038eb608"
+                "reference": "ad6be5c61352676045bbc60ae967dd819fafbcf4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/d2569594c3d3bf110b5688d67b16b90d038eb608",
-                "reference": "d2569594c3d3bf110b5688d67b16b90d038eb608",
+                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/ad6be5c61352676045bbc60ae967dd819fafbcf4",
+                "reference": "ad6be5c61352676045bbc60ae967dd819fafbcf4",
                 "shasum": ""
             },
             "require": {
@@ -459,7 +459,7 @@
                 }
             ],
             "description": "Bootstrap for SlaxWeb Framework",
-            "time": "2017-04-16 13:12:05"
+            "time": "2017-04-17 11:35:59"
         },
         {
             "name": "slaxweb/config",
