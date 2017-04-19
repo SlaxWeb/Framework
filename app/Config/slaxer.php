@@ -39,7 +39,7 @@ $configuration["componentSettings"] = [
         "installFlags"  =>  "--ignore-platform-reqs"
     ],
     "session"       =>  [
-        "version"       =>  "dev-release/0.6.0",
+        "version"       =>  "dev-release/0.5.0",
         "installFlags"  =>  "--ignore-platform-reqs"
     ],
     "cache"         =>  [
