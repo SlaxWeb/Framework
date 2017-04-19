@@ -10,8 +10,8 @@
     ],
     "require": {
         "php":  ">=7.0.0",
-        "slaxweb/bootstrap": "dev-master",
-        "slaxweb/slaxer": "~0.2"
+        "slaxweb/bootstrap": "dev-release/0.6.0",
+        "slaxweb/slaxer": "dev-release/0.3.0"
     },
     "extra": {
         "branch-alias": {
