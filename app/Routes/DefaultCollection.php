@@ -19,7 +19,7 @@ use SlaxWeb\Bootstrap\Application;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class DefaultCollection extends \SlaxWeb\Router\Service\RouteCollection
+class DefaultCollection extends \SlaxWeb\Bootstrap\Service\RouteCollection
 {
     /**
      * Define routes
