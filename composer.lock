@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b8a62f04c7d7cb6e846a384c8705d4e",
+    "content-hash": "429630f2762910fb845bbf1d066a8bc2",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -189,16 +189,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.x-dev",
+            "version": "1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "4cdd014b809867f4c040523011d2c3607d55e6b4"
+                "reference": "1e044bc4b34e91743943479f1be7a1d5eb93add0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/4cdd014b809867f4c040523011d2c3607d55e6b4",
-                "reference": "4cdd014b809867f4c040523011d2c3607d55e6b4",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1e044bc4b34e91743943479f1be7a1d5eb93add0",
+                "reference": "1e044bc4b34e91743943479f1be7a1d5eb93add0",
                 "shasum": ""
             },
             "require": {
@@ -263,7 +263,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2017-04-10 07:58:43"
+            "time": "2017-03-13T07:08:03+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -410,26 +410,26 @@
         },
         {
             "name": "slaxweb/bootstrap",
-            "version": "dev-master",
+            "version": "dev-release/0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Bootstrap.git",
-                "reference": "ad6be5c61352676045bbc60ae967dd819fafbcf4"
+                "reference": "272ac9444f48951546f48ac1df6ccb39d307ca83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/ad6be5c61352676045bbc60ae967dd819fafbcf4",
-                "reference": "ad6be5c61352676045bbc60ae967dd819fafbcf4",
+                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/272ac9444f48951546f48ac1df6ccb39d307ca83",
+                "reference": "272ac9444f48951546f48ac1df6ccb39d307ca83",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0",
                 "pimple/pimple": "3.0.2",
-                "slaxweb/config": "dev-master",
-                "slaxweb/hooks": "dev-master",
-                "slaxweb/logger": "dev-master",
-                "slaxweb/output": "~0.1",
-                "slaxweb/router": "dev-master"
+                "slaxweb/config": "dev-release/0.3.0",
+                "slaxweb/hooks": "dev-release/0.6.0",
+                "slaxweb/logger": "dev-release/0.5.0",
+                "slaxweb/output": "dev-release/0.2.0",
+                "slaxweb/router": "dev-release/0.6.0"
             },
             "require-dev": {
                 "behat/gherkin": "~4.4",
@@ -440,7 +440,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.6.x-dev"
+                    "dev-master": "0.7.x-dev"
                 }
             },
             "autoload": {
@@ -459,20 +459,20 @@
                 }
             ],
             "description": "Bootstrap for SlaxWeb Framework",
-            "time": "2017-04-17 11:35:59"
+            "time": "2017-04-19 12:42:20"
         },
         {
             "name": "slaxweb/config",
-            "version": "dev-master",
+            "version": "dev-release/0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Config.git",
-                "reference": "403bc4c837281a6da18ddb994b75c0a7b48ddbb0"
+                "reference": "92e75c3538d3903e00f5c52507bc0a322c4d1f11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Config/zipball/403bc4c837281a6da18ddb994b75c0a7b48ddbb0",
-                "reference": "403bc4c837281a6da18ddb994b75c0a7b48ddbb0",
+                "url": "https://api.github.com/repos/SlaxWeb/Config/zipball/92e75c3538d3903e00f5c52507bc0a322c4d1f11",
+                "reference": "92e75c3538d3903e00f5c52507bc0a322c4d1f11",
                 "shasum": ""
             },
             "require": {
@@ -491,7 +491,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.3.x-dev"
+                    "dev-master": "0.4.x-dev"
                 }
             },
             "autoload": {
@@ -510,7 +510,7 @@
                 }
             ],
             "description": "Config component for the SlaxWeb Framework",
-            "time": "2017-04-16 13:01:25"
+            "time": "2017-04-17 14:21:56"
         },
         {
             "name": "slaxweb/exception",
@@ -600,22 +600,22 @@
         },
         {
             "name": "slaxweb/hooks",
-            "version": "dev-master",
+            "version": "dev-release/0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Hooks.git",
-                "reference": "ecd27cc6069dd7af32a99db04dcad6a7fdee8594"
+                "reference": "2760ef92a9f96329e5649ce7ae60517a1e9368cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Hooks/zipball/ecd27cc6069dd7af32a99db04dcad6a7fdee8594",
-                "reference": "ecd27cc6069dd7af32a99db04dcad6a7fdee8594",
+                "url": "https://api.github.com/repos/SlaxWeb/Hooks/zipball/2760ef92a9f96329e5649ce7ae60517a1e9368cc",
+                "reference": "2760ef92a9f96329e5649ce7ae60517a1e9368cc",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0",
                 "slaxweb/getset": "~0.1",
-                "slaxweb/logger": "dev-master"
+                "slaxweb/logger": "dev-release/0.5.0"
             },
             "require-dev": {
                 "behat/gherkin": "~4.4",
@@ -627,7 +627,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "0.6.x-dev"
+                    "dev-develop": "0.7.x-dev"
                 }
             },
             "autoload": {
@@ -647,24 +647,24 @@
                 }
             ],
             "description": "Hooks library for SlaxWeb Framework",
-            "time": "2017-02-23 12:45:10"
+            "time": "2017-04-19 12:20:46"
         },
         {
             "name": "slaxweb/logger",
-            "version": "dev-master",
+            "version": "dev-release/0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Logger.git",
-                "reference": "7e47c875597ff31f09acf0d788a30de43e2fc113"
+                "reference": "525df415d8da444d17dd5bba18c3e90b6d8ac8e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Logger/zipball/7e47c875597ff31f09acf0d788a30de43e2fc113",
-                "reference": "7e47c875597ff31f09acf0d788a30de43e2fc113",
+                "url": "https://api.github.com/repos/SlaxWeb/Logger/zipball/525df415d8da444d17dd5bba18c3e90b6d8ac8e3",
+                "reference": "525df415d8da444d17dd5bba18c3e90b6d8ac8e3",
                 "shasum": ""
             },
             "require": {
-                "monolog/monolog": "~1.17",
+                "monolog/monolog": "~1.22.0",
                 "php": ">=7.0.0"
             },
             "suggest": {
@@ -674,7 +674,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.5.x-dev"
+                    "dev-master": "0.6.x-dev"
                 }
             },
             "autoload": {
@@ -693,33 +693,33 @@
                 }
             ],
             "description": "Logger component for SlaxWeb Framework",
-            "time": "2017-02-23 11:36:27"
+            "time": "2017-04-19 12:08:52"
         },
         {
             "name": "slaxweb/output",
-            "version": "dev-master",
+            "version": "dev-release/0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Output.git",
-                "reference": "45015c75b8e02353eb1984bc1e6937aa064570c7"
+                "reference": "99d61df8d0c7bcc3b545d4817abfca216ac9be02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Output/zipball/45015c75b8e02353eb1984bc1e6937aa064570c7",
-                "reference": "45015c75b8e02353eb1984bc1e6937aa064570c7",
+                "url": "https://api.github.com/repos/SlaxWeb/Output/zipball/99d61df8d0c7bcc3b545d4817abfca216ac9be02",
+                "reference": "99d61df8d0c7bcc3b545d4817abfca216ac9be02",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0",
-                "slaxweb/config": "~0.2",
-                "slaxweb/logger": "~0.3",
-                "slaxweb/router": "~0.4"
+                "slaxweb/config": "dev-release/0.3.0",
+                "slaxweb/logger": "dev-release/0.5.0",
+                "slaxweb/router": "dev-release/0.6.0"
             },
             "require-dev": {
                 "codeception/codeception": "~2.2",
                 "codeception/specify": "*",
                 "mockery/mockery": "~0.9",
-                "slaxweb/view": "~0.4"
+                "slaxweb/view": "dev-release/0.6.0"
             },
             "suggest": {
                 "slaxweb/view": "Required if you wish to use the View Handler"
@@ -727,7 +727,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.2.x-dev"
+                    "dev-master": "0.3.x-dev"
                 }
             },
             "autoload": {
@@ -746,28 +746,28 @@
                 }
             ],
             "description": "Handling output for the SlaxWeb Framework",
-            "time": "2017-04-16 15:07:25"
+            "time": "2017-04-19 13:26:01"
         },
         {
             "name": "slaxweb/router",
-            "version": "dev-master",
+            "version": "dev-release/0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Router.git",
-                "reference": "4af2fc3ddae9215e68545bc052c37255d5221c9e"
+                "reference": "9749786b0394c0f76bec472e938e0cdd62881d32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/4af2fc3ddae9215e68545bc052c37255d5221c9e",
-                "reference": "4af2fc3ddae9215e68545bc052c37255d5221c9e",
+                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/9749786b0394c0f76bec472e938e0cdd62881d32",
+                "reference": "9749786b0394c0f76bec472e938e0cdd62881d32",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0",
-                "slaxweb/config": "dev-master",
+                "slaxweb/config": "dev-release/0.3.0",
                 "slaxweb/getset": "~0.1",
-                "slaxweb/hooks": "dev-master",
-                "slaxweb/logger": "dev-master",
+                "slaxweb/hooks": "dev-release/0.6.0",
+                "slaxweb/logger": "dev-release/0.5.0",
                 "symfony/http-foundation": "~3.0"
             },
             "require-dev": {
@@ -782,7 +782,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.6.x-dev"
+                    "dev-master": "0.7.x-dev"
                 }
             },
             "autoload": {
@@ -801,20 +801,20 @@
                 }
             ],
             "description": "Router component for the SlaxWeb/Framework",
-            "time": "2017-03-01 19:17:17"
+            "time": "2017-04-19 12:40:41"
         },
         {
             "name": "slaxweb/slaxer",
-            "version": "dev-master",
+            "version": "dev-release/0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Slaxer.git",
-                "reference": "cdc9e25fbd4a74ecc8be45ef3c4f6994442ce1f6"
+                "reference": "4fe33303dc9cdce82d0bdfb810dc522a0aed71fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Slaxer/zipball/cdc9e25fbd4a74ecc8be45ef3c4f6994442ce1f6",
-                "reference": "cdc9e25fbd4a74ecc8be45ef3c4f6994442ce1f6",
+                "url": "https://api.github.com/repos/SlaxWeb/Slaxer/zipball/4fe33303dc9cdce82d0bdfb810dc522a0aed71fa",
+                "reference": "4fe33303dc9cdce82d0bdfb810dc522a0aed71fa",
                 "shasum": ""
             },
             "require": {
@@ -829,7 +829,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.3.x-dev"
+                    "dev-master": "0.4.x-dev"
                 }
             },
             "autoload": {
@@ -848,7 +848,7 @@
                 }
             ],
             "description": "Slaxer Command Line Tool for SlaxWeb Framework",
-            "time": "2017-04-16 13:13:13"
+            "time": "2017-04-17 14:39:35"
         },
         {
             "name": "symfony/console",
@@ -1091,7 +1091,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "slaxweb/bootstrap": 20
+        "slaxweb/bootstrap": 20,
+        "slaxweb/slaxer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
