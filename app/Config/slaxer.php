@@ -30,20 +30,20 @@ $configuration["baseUrl"] = "https://packagist.org/packages/";
  * or break installation of certain packages. Proceed with caution!
  */
 $configuration["componentSettings"] = [
-    "appserver"     =>  [
-        "version"       =>  "~0.1",
-        "installFlags"  =>  "--ignore-platform-reqs"
-    ],
     "database"      =>  [
-        "version"       =>  "~0.5",
+        "version"       =>  "dev-release/0.6.0",
         "installFlags"  =>  "--ignore-platform-reqs"
     ],
     "view"          =>  [
-        "version"       =>  "~0.5",
+        "version"       =>  "dev-release/0.6.0",
         "installFlags"  =>  "--ignore-platform-reqs"
     ],
     "session"       =>  [
-        "version"       =>  "~0.4",
+        "version"       =>  "dev-release/0.6.0",
         "installFlags"  =>  "--ignore-platform-reqs"
     ],
+    "cache"         =>  [
+        "version"       =>  "dev-release/0.1.0",
+        "installFlags"  =>  "--ignore-platform-reqs"
+    ]
 ];
