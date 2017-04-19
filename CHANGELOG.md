@@ -19,6 +19,7 @@ Changes between version.
 performance
 * [Bootstrap] add component command
 * [Bootstrap] download and install composer if not found in PATH
+* [Bootstrap] fix component installation command for specific versions
 * [Cache] add file cache handler
 * [Cache] add basic cache handling
 * [Cache-Database] simple query caching and retrieval based on the where statement and column list
