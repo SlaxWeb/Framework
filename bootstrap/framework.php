@@ -44,6 +44,7 @@ $app->register(new \SlaxWeb\Bootstrap\Service\HooksProvider);
 $app->register(new \SlaxWeb\Bootstrap\Service\LoggerProvider);
 $app->register(new \SlaxWeb\Bootstrap\Service\RouterProvider);
 $app->register(new \SlaxWeb\Bootstrap\Service\OutputProvider);
+$app->register(new \SlaxWeb\Bootstrap\Service\Provider);
 
 // initialize the app
 $app->init();
