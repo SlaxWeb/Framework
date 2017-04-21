@@ -414,12 +414,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Bootstrap.git",
-                "reference": "9c0c4e58a7bcb94810ad9d107ba306f3aa69aa4e"
+                "reference": "1585896683f226b9cadad122d9835170bbf477a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/9c0c4e58a7bcb94810ad9d107ba306f3aa69aa4e",
-                "reference": "9c0c4e58a7bcb94810ad9d107ba306f3aa69aa4e",
+                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/1585896683f226b9cadad122d9835170bbf477a1",
+                "reference": "1585896683f226b9cadad122d9835170bbf477a1",
                 "shasum": ""
             },
             "require": {
@@ -459,7 +459,7 @@
                 }
             ],
             "description": "Bootstrap for SlaxWeb Framework",
-            "time": "2017-04-19 14:16:04"
+            "time": "2017-04-20 07:00:00"
         },
         {
             "name": "slaxweb/config",
@@ -754,12 +754,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Router.git",
-                "reference": "9749786b0394c0f76bec472e938e0cdd62881d32"
+                "reference": "2a0854b734331241a4216693bd8f828387c6ee33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/9749786b0394c0f76bec472e938e0cdd62881d32",
-                "reference": "9749786b0394c0f76bec472e938e0cdd62881d32",
+                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/2a0854b734331241a4216693bd8f828387c6ee33",
+                "reference": "2a0854b734331241a4216693bd8f828387c6ee33",
                 "shasum": ""
             },
             "require": {
@@ -801,7 +801,7 @@
                 }
             ],
             "description": "Router component for the SlaxWeb/Framework",
-            "time": "2017-04-19 12:40:41"
+            "time": "2017-04-21 12:33:55"
         },
         {
             "name": "slaxweb/slaxer",
@@ -856,12 +856,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "386c1d9d245e21e9df5b0ead3e46a877e44fe247"
+                "reference": "240ef75712a842899d5bdbb97bc83e02b362acbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/386c1d9d245e21e9df5b0ead3e46a877e44fe247",
-                "reference": "386c1d9d245e21e9df5b0ead3e46a877e44fe247",
+                "url": "https://api.github.com/repos/symfony/console/zipball/240ef75712a842899d5bdbb97bc83e02b362acbf",
+                "reference": "240ef75712a842899d5bdbb97bc83e02b362acbf",
                 "shasum": ""
             },
             "require": {
@@ -916,7 +916,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-04-13 16:59:03"
+            "time": "2017-04-19 23:40:30"
         },
         {
             "name": "symfony/debug",
@@ -924,12 +924,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "a40c94b3ec4d32805cd471fb2bcbf0a9dcdf4e41"
+                "reference": "2a237220d7d24a4ac867f701fe07320f341b2454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/a40c94b3ec4d32805cd471fb2bcbf0a9dcdf4e41",
-                "reference": "a40c94b3ec4d32805cd471fb2bcbf0a9dcdf4e41",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/2a237220d7d24a4ac867f701fe07320f341b2454",
+                "reference": "2a237220d7d24a4ac867f701fe07320f341b2454",
                 "shasum": ""
             },
             "require": {
@@ -972,7 +972,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2017-04-12 14:14:56"
+            "time": "2017-04-20 17:12:40"
         },
         {
             "name": "symfony/http-foundation",
@@ -980,12 +980,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "ac01fbe29619f5efecb08fa4731ceae33f093ede"
+                "reference": "28d13bcd304e973dc41cc03c22406eb5f16a75a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/ac01fbe29619f5efecb08fa4731ceae33f093ede",
-                "reference": "ac01fbe29619f5efecb08fa4731ceae33f093ede",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/28d13bcd304e973dc41cc03c22406eb5f16a75a1",
+                "reference": "28d13bcd304e973dc41cc03c22406eb5f16a75a1",
                 "shasum": ""
             },
             "require": {
@@ -1025,7 +1025,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-04-12 14:14:56"
+            "time": "2017-04-19 20:25:39"
         },
         {
             "name": "symfony/polyfill-mbstring",
