@@ -10,8 +10,8 @@
     ],
     "require": {
         "php":  ">=7.0.0",
-        "slaxweb/bootstrap": "dev-release/0.6.0",
-        "slaxweb/slaxer": "dev-release/0.3.0"
+        "slaxweb/bootstrap": "~0.6",
+        "slaxweb/slaxer": "~0.3"
     },
     "extra": {
         "branch-alias": {
@@ -29,6 +29,5 @@
             "App\\Routes\\": "app/Routes",
             "App\\View\\": "app/View/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }

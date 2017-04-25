@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "429630f2762910fb845bbf1d066a8bc2",
+    "content-hash": "410554045206add8c172f45292e1613a",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
-            "version": "dev-master",
+            "version": "6.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "b517bd912afa5aa1033ce434d7138641fd6c31ab"
+                "reference": "8d6c6cc55186db87b7dc5009827429ba4e9dc006"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b517bd912afa5aa1033ce434d7138641fd6c31ab",
-                "reference": "b517bd912afa5aa1033ce434d7138641fd6c31ab",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/8d6c6cc55186db87b7dc5009827429ba4e9dc006",
+                "reference": "8d6c6cc55186db87b7dc5009827429ba4e9dc006",
                 "shasum": ""
             },
             "require": {
@@ -29,9 +29,6 @@
                 "ext-curl": "*",
                 "phpunit/phpunit": "^4.0",
                 "psr/log": "^1.0"
-            },
-            "suggest": {
-                "psr/log": "Required for using the Log middleware"
             },
             "type": "library",
             "extra": {
@@ -69,20 +66,20 @@
                 "rest",
                 "web service"
             ],
-            "time": "2017-04-07 20:03:48"
+            "time": "2017-02-28T22:50:30+00:00"
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "dev-master",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "73815f322dc2d2aa711f8af41f87d3e9d9246bae"
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/73815f322dc2d2aa711f8af41f87d3e9d9246bae",
-                "reference": "73815f322dc2d2aa711f8af41f87d3e9d9246bae",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
                 "shasum": ""
             },
             "require": {
@@ -120,11 +117,11 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2017-03-28 16:54:57"
+            "time": "2016-12-20T10:07:11+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "dev-master",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
@@ -185,7 +182,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-03-20 17:10:46"
+            "time": "2017-03-20T17:10:46+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -313,7 +310,7 @@
         },
         {
             "name": "psr/http-message",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
@@ -359,11 +356,11 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
-            "version": "dev-master",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
@@ -406,30 +403,30 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2016-10-10T12:19:37+00:00"
         },
         {
             "name": "slaxweb/bootstrap",
-            "version": "dev-release/0.6.0",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Bootstrap.git",
-                "reference": "1585896683f226b9cadad122d9835170bbf477a1"
+                "reference": "c75c9d5fab9e7059304043865812302300962144"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/1585896683f226b9cadad122d9835170bbf477a1",
-                "reference": "1585896683f226b9cadad122d9835170bbf477a1",
+                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/c75c9d5fab9e7059304043865812302300962144",
+                "reference": "c75c9d5fab9e7059304043865812302300962144",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0",
                 "pimple/pimple": "3.0.2",
-                "slaxweb/config": "dev-release/0.3.0",
-                "slaxweb/hooks": "dev-release/0.6.0",
-                "slaxweb/logger": "dev-release/0.5.0",
-                "slaxweb/output": "dev-release/0.2.0",
-                "slaxweb/router": "dev-release/0.6.0"
+                "slaxweb/config": "~0.3",
+                "slaxweb/hooks": "~0.6",
+                "slaxweb/logger": "~0.5",
+                "slaxweb/output": "~0.2",
+                "slaxweb/router": "~0.6"
             },
             "require-dev": {
                 "behat/gherkin": "~4.4",
@@ -459,11 +456,11 @@
                 }
             ],
             "description": "Bootstrap for SlaxWeb Framework",
-            "time": "2017-04-20 07:00:00"
+            "time": "2017-04-25T19:44:47+00:00"
         },
         {
             "name": "slaxweb/config",
-            "version": "dev-release/0.3.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Config.git",
@@ -510,11 +507,11 @@
                 }
             ],
             "description": "Config component for the SlaxWeb Framework",
-            "time": "2017-04-17 14:21:56"
+            "time": "2017-04-17T14:21:56+00:00"
         },
         {
             "name": "slaxweb/exception",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Exception.git",
@@ -554,11 +551,11 @@
                 }
             ],
             "description": "Exception collection for SlaxWeb Framework",
-            "time": "2017-01-10 19:24:07"
+            "time": "2017-01-10T19:24:07+00:00"
         },
         {
             "name": "slaxweb/getset",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/GetSet.git",
@@ -596,26 +593,26 @@
                 }
             ],
             "description": "Getter and Setter traits for SlaxWeb Framework",
-            "time": "2017-01-10 19:40:12"
+            "time": "2017-01-10T19:40:12+00:00"
         },
         {
             "name": "slaxweb/hooks",
-            "version": "dev-release/0.6.0",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Hooks.git",
-                "reference": "2760ef92a9f96329e5649ce7ae60517a1e9368cc"
+                "reference": "678f4d5425c27e0dd2a61b68d59bfb2793955b91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Hooks/zipball/2760ef92a9f96329e5649ce7ae60517a1e9368cc",
-                "reference": "2760ef92a9f96329e5649ce7ae60517a1e9368cc",
+                "url": "https://api.github.com/repos/SlaxWeb/Hooks/zipball/678f4d5425c27e0dd2a61b68d59bfb2793955b91",
+                "reference": "678f4d5425c27e0dd2a61b68d59bfb2793955b91",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0",
                 "slaxweb/getset": "~0.1",
-                "slaxweb/logger": "dev-release/0.5.0"
+                "slaxweb/logger": "~0.5"
             },
             "require-dev": {
                 "behat/gherkin": "~4.4",
@@ -647,11 +644,11 @@
                 }
             ],
             "description": "Hooks library for SlaxWeb Framework",
-            "time": "2017-04-19 12:20:46"
+            "time": "2017-04-25T19:06:06+00:00"
         },
         {
             "name": "slaxweb/logger",
-            "version": "dev-release/0.5.0",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Logger.git",
@@ -693,33 +690,33 @@
                 }
             ],
             "description": "Logger component for SlaxWeb Framework",
-            "time": "2017-04-19 12:08:52"
+            "time": "2017-04-19T12:08:52+00:00"
         },
         {
             "name": "slaxweb/output",
-            "version": "dev-release/0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Output.git",
-                "reference": "99d61df8d0c7bcc3b545d4817abfca216ac9be02"
+                "reference": "5bee3258f2fe63e161d3e8abe85118bfbf02ab48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Output/zipball/99d61df8d0c7bcc3b545d4817abfca216ac9be02",
-                "reference": "99d61df8d0c7bcc3b545d4817abfca216ac9be02",
+                "url": "https://api.github.com/repos/SlaxWeb/Output/zipball/5bee3258f2fe63e161d3e8abe85118bfbf02ab48",
+                "reference": "5bee3258f2fe63e161d3e8abe85118bfbf02ab48",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0",
-                "slaxweb/config": "dev-release/0.3.0",
-                "slaxweb/logger": "dev-release/0.5.0",
-                "slaxweb/router": "dev-release/0.6.0"
+                "slaxweb/config": "~0.3",
+                "slaxweb/logger": "~0.5",
+                "slaxweb/router": "~0.6"
             },
             "require-dev": {
                 "codeception/codeception": "~2.2",
                 "codeception/specify": "*",
                 "mockery/mockery": "~0.9",
-                "slaxweb/view": "dev-release/0.6.0"
+                "slaxweb/view": "~0.6"
             },
             "suggest": {
                 "slaxweb/view": "Required if you wish to use the View Handler"
@@ -746,28 +743,28 @@
                 }
             ],
             "description": "Handling output for the SlaxWeb Framework",
-            "time": "2017-04-19 13:26:01"
+            "time": "2017-04-25T19:16:13+00:00"
         },
         {
             "name": "slaxweb/router",
-            "version": "dev-release/0.6.0",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Router.git",
-                "reference": "2a0854b734331241a4216693bd8f828387c6ee33"
+                "reference": "b4a25655710638c71787a8498d267a663ef2e819"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/2a0854b734331241a4216693bd8f828387c6ee33",
-                "reference": "2a0854b734331241a4216693bd8f828387c6ee33",
+                "url": "https://api.github.com/repos/SlaxWeb/Router/zipball/b4a25655710638c71787a8498d267a663ef2e819",
+                "reference": "b4a25655710638c71787a8498d267a663ef2e819",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0",
-                "slaxweb/config": "dev-release/0.3.0",
+                "slaxweb/config": "~0.3",
                 "slaxweb/getset": "~0.1",
-                "slaxweb/hooks": "dev-release/0.6.0",
-                "slaxweb/logger": "dev-release/0.5.0",
+                "slaxweb/hooks": "~0.6",
+                "slaxweb/logger": "~0.5",
                 "symfony/http-foundation": "~3.0"
             },
             "require-dev": {
@@ -801,11 +798,11 @@
                 }
             ],
             "description": "Router component for the SlaxWeb/Framework",
-            "time": "2017-04-21 12:33:55"
+            "time": "2017-04-25T19:07:38+00:00"
         },
         {
             "name": "slaxweb/slaxer",
-            "version": "dev-release/0.3.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Slaxer.git",
@@ -848,20 +845,20 @@
                 }
             ],
             "description": "Slaxer Command Line Tool for SlaxWeb Framework",
-            "time": "2017-04-17 14:39:35"
+            "time": "2017-04-17T14:39:35+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "dev-master",
+            "version": "v3.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "240ef75712a842899d5bdbb97bc83e02b362acbf"
+                "reference": "c30243cc51f726812be3551316b109a2f5deaf8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/240ef75712a842899d5bdbb97bc83e02b362acbf",
-                "reference": "240ef75712a842899d5bdbb97bc83e02b362acbf",
+                "url": "https://api.github.com/repos/symfony/console/zipball/c30243cc51f726812be3551316b109a2f5deaf8d",
+                "reference": "c30243cc51f726812be3551316b109a2f5deaf8d",
                 "shasum": ""
             },
             "require": {
@@ -869,15 +866,10 @@
                 "symfony/debug": "~2.8|~3.0",
                 "symfony/polyfill-mbstring": "~1.0"
             },
-            "conflict": {
-                "symfony/dependency-injection": "<3.3"
-            },
             "require-dev": {
                 "psr/log": "~1.0",
-                "symfony/dependency-injection": "~3.3",
                 "symfony/event-dispatcher": "~2.8|~3.0",
                 "symfony/filesystem": "~2.8|~3.0",
-                "symfony/http-kernel": "~2.8|~3.0",
                 "symfony/process": "~2.8|~3.0"
             },
             "suggest": {
@@ -889,7 +881,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -916,20 +908,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-04-19 23:40:30"
+            "time": "2017-04-04T14:33:42+00:00"
         },
         {
             "name": "symfony/debug",
-            "version": "dev-master",
+            "version": "v3.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "2a237220d7d24a4ac867f701fe07320f341b2454"
+                "reference": "56f613406446a4a0a031475cfd0a01751de22659"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/2a237220d7d24a4ac867f701fe07320f341b2454",
-                "reference": "2a237220d7d24a4ac867f701fe07320f341b2454",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/56f613406446a4a0a031475cfd0a01751de22659",
+                "reference": "56f613406446a4a0a031475cfd0a01751de22659",
                 "shasum": ""
             },
             "require": {
@@ -940,12 +932,13 @@
                 "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
             },
             "require-dev": {
+                "symfony/class-loader": "~2.8|~3.0",
                 "symfony/http-kernel": "~2.8|~3.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -972,20 +965,20 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2017-04-20 17:12:40"
+            "time": "2017-03-28T21:38:24+00:00"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "dev-master",
+            "version": "v3.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "28d13bcd304e973dc41cc03c22406eb5f16a75a1"
+                "reference": "cb0b6418f588952c9290b3df4ca650f1b7ab570a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/28d13bcd304e973dc41cc03c22406eb5f16a75a1",
-                "reference": "28d13bcd304e973dc41cc03c22406eb5f16a75a1",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/cb0b6418f588952c9290b3df4ca650f1b7ab570a",
+                "reference": "cb0b6418f588952c9290b3df4ca650f1b7ab570a",
                 "shasum": ""
             },
             "require": {
@@ -998,7 +991,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -1025,11 +1018,11 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-04-19 20:25:39"
+            "time": "2017-04-04T15:30:56+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "dev-master",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -1084,16 +1077,13 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "slaxweb/bootstrap": 20,
-        "slaxweb/slaxer": 20
-    },
+    "minimum-stability": "stable",
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
