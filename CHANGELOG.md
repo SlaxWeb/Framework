@@ -4,6 +4,10 @@ Changes between version.
 
 ## Current changes
 
+## v0.6
+
+### v0.6.0
+
 * [Bootstrap] add service provider for config component
 * [Bootstrap] add service provider for hooks component
 * [Bootstrap] add service provider for logger component
