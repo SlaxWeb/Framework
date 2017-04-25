@@ -31,19 +31,19 @@ $configuration["baseUrl"] = "https://packagist.org/packages/";
  */
 $configuration["componentSettings"] = [
     "database"      =>  [
-        "version"       =>  "dev-release/0.6.0",
+        "version"       =>  "~0.6",
         "installFlags"  =>  "--ignore-platform-reqs"
     ],
     "view"          =>  [
-        "version"       =>  "dev-release/0.6.0",
+        "version"       =>  "~0.6",
         "installFlags"  =>  "--ignore-platform-reqs"
     ],
     "session"       =>  [
-        "version"       =>  "dev-release/0.5.0",
+        "version"       =>  "~0.5",
         "installFlags"  =>  "--ignore-platform-reqs"
     ],
     "cache"         =>  [
-        "version"       =>  "dev-release/0.1.0",
+        "version"       =>  "~0.1",
         "installFlags"  =>  "--ignore-platform-reqs"
     ]
 ];
