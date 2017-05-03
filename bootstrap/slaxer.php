@@ -14,11 +14,13 @@
 // load bootstrap
 $app = require "framework.php";
 
-// register the Slaxer Service Provider
+// register the Slaxer Service Provider and Component Commands Provider
 $app->register(new SlaxWeb\Slaxer\Service\Provider);
+$app->register(new SlaxWeb\Bootstrap\Service\ComponentCommandsProvider);
 
 // prepare commands to be injected into slaxer
 $app["slaxerCommands"] = array_merge(
+    $app["slaxerCommands"] ?? [],
     $app["config.service"]["provider.commandsList"] ?? [],
     $app["config.service"]["component.commands"] ?? []
 );
