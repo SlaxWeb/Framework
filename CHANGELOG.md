@@ -4,6 +4,8 @@ Changes between version.
 
 ## Current changes
 
+* Register component commands provider from the Bootstrap component in the slaxer CLI tool bootstrap file
+
 ## v0.6
 
 ### v0.6.0
