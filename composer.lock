@@ -411,12 +411,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Bootstrap.git",
-                "reference": "02f1f3c37b880f108e8f5ccba801f0ca333f8d9c"
+                "reference": "da7b67f2f3a197fd049f608d6c27eda8533b55df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/02f1f3c37b880f108e8f5ccba801f0ca333f8d9c",
-                "reference": "02f1f3c37b880f108e8f5ccba801f0ca333f8d9c",
+                "url": "https://api.github.com/repos/SlaxWeb/Bootstrap/zipball/da7b67f2f3a197fd049f608d6c27eda8533b55df",
+                "reference": "da7b67f2f3a197fd049f608d6c27eda8533b55df",
                 "shasum": ""
             },
             "require": {
@@ -457,7 +457,7 @@
                 }
             ],
             "description": "Bootstrap for SlaxWeb Framework",
-            "time": "2017-05-03 20:19:04"
+            "time": "2017-05-03 20:37:26"
         },
         {
             "name": "slaxweb/config",
@@ -807,12 +807,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SlaxWeb/Slaxer.git",
-                "reference": "215a41e89861e92e197152756aa029833bb09f6e"
+                "reference": "befdc0169c464b75ca0fc55c0cc5b8b5a72d0c1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SlaxWeb/Slaxer/zipball/215a41e89861e92e197152756aa029833bb09f6e",
-                "reference": "215a41e89861e92e197152756aa029833bb09f6e",
+                "url": "https://api.github.com/repos/SlaxWeb/Slaxer/zipball/befdc0169c464b75ca0fc55c0cc5b8b5a72d0c1b",
+                "reference": "befdc0169c464b75ca0fc55c0cc5b8b5a72d0c1b",
                 "shasum": ""
             },
             "require": {
@@ -845,7 +845,7 @@
                 }
             ],
             "description": "Slaxer Command Line Tool for SlaxWeb Framework",
-            "time": "2017-05-03 20:11:12"
+            "time": "2017-05-03 20:38:00"
         },
         {
             "name": "symfony/console",
